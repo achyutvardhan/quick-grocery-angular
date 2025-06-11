@@ -8,6 +8,8 @@ import { TopCategoryComponent } from './top-category/top-category.component';
 import { ProductCardComponent } from './sub-component/product-card/product-card.component';
 import { OurProductSectionComponent } from   './our-product-section/our-product-section.component'
 import { FooterComponent } from './footer/footer.component';
+import { FoodCardComponent } from './sub-component/food-card/food-card.component';
+import { FoodBlogSectionComponent } from './food-blog-section/food-blog-section.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FooterComponent } from './footer/footer.component';
     HeroBannerComponent,
     TopCategoryComponent,
     ProductCardComponent,
-    OurProductSectionComponent
+    OurProductSectionComponent,
+    FoodCardComponent,
+    FoodBlogSectionComponent
   ],
   imports: [
     BrowserModule
