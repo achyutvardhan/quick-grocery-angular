@@ -8,6 +8,7 @@ import { FooterModule } from './Module/footer.module';
 import { ProductModule } from './Module/product.module';
 import { BlogModule } from './Module/blog.module';
 import { CategoryCardComponent } from './sub-component/category-card/category-card.component';
+import { ContactModule } from './Module/contact.module';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { CategoryCardComponent } from './sub-component/category-card/category-ca
     HeaderModule,
     FooterModule,
     ProductModule,
-    BlogModule
+    BlogModule,
+    ContactModule
   ],
   providers: [],
   bootstrap: [AppComponent]
