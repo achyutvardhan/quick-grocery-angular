@@ -13,8 +13,7 @@ import { OurProductSectionComponent } from   './our-product-section/our-product-
     AppComponent,
     HeaderComponent,
     HeroBannerComponent,
-    TopCategoryComponent
-    AppComponent,
+    TopCategoryComponent,
     ProductCardComponent,
     OurProductSectionComponent
   ],
