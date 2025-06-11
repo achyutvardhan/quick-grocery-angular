@@ -7,10 +7,12 @@ import { HeroBannerComponent } from './hero-banner/hero-banner.component';
 import { TopCategoryComponent } from './top-category/top-category.component';
 import { ProductCardComponent } from './sub-component/product-card/product-card.component';
 import { OurProductSectionComponent } from   './our-product-section/our-product-section.component'
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    FooterComponent,
     HeaderComponent,
     HeroBannerComponent,
     TopCategoryComponent,
