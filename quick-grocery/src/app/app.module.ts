@@ -9,6 +9,7 @@ import { ProductModule } from './Module/product.module';
 import { BlogModule } from './Module/blog.module';
 import { CategoryCardComponent } from './sub-component/category-card/category-card.component';
 import { ContactModule } from './Module/contact.module';
+import { AppPromotionSectionComponent } from './app-promotion-section/app-promotion-section.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { ContactModule } from './Module/contact.module';
     HeroBannerComponent,
     TopCategoryComponent,
     CategoryCardComponent,
+    AppPromotionSectionComponent,
   ],
   imports: [
     BrowserModule,
