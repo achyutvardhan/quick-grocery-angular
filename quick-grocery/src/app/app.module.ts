@@ -10,6 +10,9 @@ import { BlogModule } from './Module/blog.module';
 import { CategoryCardComponent } from './sub-component/category-card/category-card.component';
 import { ContactModule } from './Module/contact.module';
 import { AppPromotionSectionComponent } from './app-promotion-section/app-promotion-section.component';
+import { HomeComponent } from './home/home.component';
+import { NavigationModule } from './Module/navigation.module';
+
 
 
 @NgModule({
@@ -19,6 +22,7 @@ import { AppPromotionSectionComponent } from './app-promotion-section/app-promot
     TopCategoryComponent,
     CategoryCardComponent,
     AppPromotionSectionComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,8 @@ import { AppPromotionSectionComponent } from './app-promotion-section/app-promot
     FooterModule,
     ProductModule,
     BlogModule,
-    ContactModule
+    ContactModule,
+    NavigationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
