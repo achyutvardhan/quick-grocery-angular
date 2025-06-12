@@ -450,6 +450,16 @@ img {
   justify-content: center;
 }
 
+nav ul li a .fa-shopping-cart {
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.2s;
+}
+
+nav ul li a:hover .fa-shopping-cart {
+  color: #007bff;
+}
+
 .item-total {
   font-weight: bold;
   color: #333;
