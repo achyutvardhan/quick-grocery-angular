@@ -11,6 +11,7 @@ import { ContactModule } from './Module/contact.module';
 import { AppPromotionSectionComponent } from './app-promotion-section/app-promotion-section.component';
 import { HomeComponent } from './home/home.component';
 import { NavigationModule } from './Module/navigation.module';
+import { AddToCartComponent } from './Pages/add-to-cart/add-to-cart.component';
 
 
 
@@ -22,6 +23,7 @@ import { NavigationModule } from './Module/navigation.module';
     CategoryCardComponent,
     AppPromotionSectionComponent,
     HomeComponent,
+    AddToCartComponent,
   ],
   imports: [
     BrowserModule,
