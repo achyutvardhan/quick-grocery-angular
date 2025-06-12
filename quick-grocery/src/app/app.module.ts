@@ -11,6 +11,8 @@ import { ContactModule } from './Module/contact.module';
 import { AppPromotionSectionComponent } from './app-promotion-section/app-promotion-section.component';
 import { HomeComponent } from './home/home.component';
 import { NavigationModule } from './Module/navigation.module';
+import { MembershipSectionComponent } from './membership-section/membership-section.component';
+import { RegisterNowComponent } from './sub-component/register-now/register-now.component';
 
 
 
