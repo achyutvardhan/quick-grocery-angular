@@ -1,0 +1,54 @@
+{
+  "product": {
+    "fruits": [
+      { "id": 1, "name": "Apple",      "price": 0.99, "img": "https://example.com/images/apple.jpg" },
+      { "id": 2, "name": "Banana",     "price": 0.59, "img": "https://example.com/images/banana.jpg" },
+      { "id": 3, "name": "Strawberry", "price": 2.99, "img": "https://example.com/images/strawberry.jpg" },
+      { "id": 4, "name": "Orange",     "price": 1.19, "img": "https://example.com/images/orange.jpg" },
+      { "id": 5, "name": "Grape",      "price": 2.49, "img": "https://example.com/images/grape.jpg" },
+      { "id": 6, "name": "Mango",      "price": 1.79, "img": "https://example.com/images/mango.jpg" },
+      { "id": 7, "name": "Pineapple",  "price": 3.29, "img": "https://example.com/images/pineapple.jpg" },
+      { "id": 8, "name": "Blueberry",  "price": 3.49, "img": "https://example.com/images/blueberry.jpg" }
+    ],
+    "vegetables": [
+      { "id": 1, "name": "Carrot",    "price": 0.79, "img": "https://example.com/images/carrot.jpg" },
+      { "id": 2, "name": "Broccoli",  "price": 1.29, "img": "https://example.com/images/broccoli.jpg" },
+      { "id": 3, "name": "Spinach",   "price": 1.99, "img": "https://example.com/images/spinach.jpg" },
+      { "id": 4, "name": "Tomato",    "price": 0.89, "img": "https://example.com/images/tomato.jpg" },
+      { "id": 5, "name": "Potato",    "price": 0.49, "img": "https://example.com/images/potato.jpg" },
+      { "id": 6, "name": "Onion",     "price": 0.39, "img": "https://example.com/images/onion.jpg" },
+      { "id": 7, "name": "Lettuce",   "price": 1.09, "img": "https://example.com/images/lettuce.jpg" },
+      { "id": 8, "name": "Cucumber",  "price": 0.99, "img": "https://example.com/images/cucumber.jpg" }
+    ],
+    "dairy": [
+      { "id": 1, "name": "Milk",            "price": 3.49, "img": "https://example.com/images/milk.jpg" },
+      { "id": 2, "name": "Cheese",          "price": 4.99, "img": "https://example.com/images/cheese.jpg" },
+      { "id": 3, "name": "Yogurt",          "price": 1.29, "img": "https://example.com/images/yogurt.jpg" },
+      { "id": 4, "name": "Butter",          "price": 2.79, "img": "https://example.com/images/butter.jpg" },
+      { "id": 5, "name": "Cream",           "price": 1.99, "img": "https://example.com/images/cream.jpg" },
+      { "id": 6, "name": "Ice Cream",       "price": 3.99, "img": "https://example.com/images/icecream.jpg" },
+      { "id": 7, "name": "Cottage Cheese",  "price": 2.49, "img": "https://example.com/images/cottage_cheese.jpg" },
+      { "id": 8, "name": "Sour Cream",      "price": 1.69, "img": "https://example.com/images/sour_cream.jpg" }
+    ],
+    "bakery": [
+      { "id": 1, "name": "Bread",      "price": 2.49, "img": "https://example.com/images/bread.jpg" },
+      { "id": 2, "name": "Croissant",  "price": 2.19, "img": "https://example.com/images/croissant.jpg" },
+      { "id": 3, "name": "Muffin",     "price": 1.99, "img": "https://example.com/images/muffin.jpg" },
+      { "id": 4, "name": "Bagel",      "price": 1.49, "img": "https://example.com/images/bagel.jpg" },
+      { "id": 5, "name": "Donut",      "price": 1.29, "img": "https://example.com/images/donut.jpg" },
+      { "id": 6, "name": "Baguette",   "price": 2.79, "img": "https://example.com/images/baguette.jpg" },
+      { "id": 7, "name": "Cake",       "price": 9.99, "img": "https://example.com/images/cake.jpg" },
+      { "id": 8, "name": "Pie",        "price": 7.49, "img": "https://example.com/images/pie.jpg" }
+    ],
+    "meat": [
+      { "id": 1, "name": "Chicken Breast", "price": 5.99, "img": "https://example.com/images/chicken_breast.jpg" },
+      { "id": 2, "name": "Beef Steak",     "price": 9.99, "img": "https://example.com/images/beef_steak.jpg" },
+      { "id": 3, "name": "Bacon",          "price": 4.49, "img": "https://example.com/images/bacon.jpg" },
+      { "id": 4, "name": "Pork Chop",      "price": 5.49, "img": "https://example.com/images/pork_chop.jpg" },
+      { "id": 5, "name": "Turkey",         "price": 6.99, "img": "https://example.com/images/turkey.jpg" },
+      { "id": 6, "name": "Lamb",           "price": 8.99, "img": "https://example.com/images/lamb.jpg" },
+      { "id": 7, "name": "Ham",            "price": 4.99, "img": "https://example.com/images/ham.jpg" },
+      { "id": 8, "name": "Sausage",        "price": 3.99, "img": "https://example.com/images/sausage.jpg" }
+    ]
+  }
+}
