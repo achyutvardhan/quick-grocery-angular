@@ -12,10 +12,7 @@
             </ul>
         </div>
         <div class="product-grid">
-            <app-product-card/>
-            <app-product-card/>
-            <app-product-card/>
-            <app-product-card/>
+            <app-product-card *ngFor="let item of product"  [itemsObj]="item" />
         </div>
     </div>
 </section>
