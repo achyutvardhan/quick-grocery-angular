@@ -8,6 +8,7 @@ import { TopCategoryComponent } from './top-category/top-category.component';
 import { FooterModule } from './Module/footer.module';
 import { ProductModule } from './Module/product.module';
 import { BlogModule } from './Module/blog.module';
+import { CategoryCardComponent } from './sub-component/category-card/category-card.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { BlogModule } from './Module/blog.module';
     AppComponent,
     HeroBannerComponent,
     TopCategoryComponent,
+    CategoryCardComponent,
   ],
   imports: [
     BrowserModule,
