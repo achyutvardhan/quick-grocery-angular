@@ -6,8 +6,10 @@ import { BlogComponent } from '../Pages/blog/blog.component';
 import { ContactComponent } from '../Pages/contact/contact.component';
 import { SpecialOfferComponent } from '../Pages/special-offer/special-offer.component';
 import { TopCategoryComponent } from '../top-category/top-category.component';
-const appRoutes: Routes = [
+import { OurProductComponent } from '../Pages/our-product/our-product.component';
+export const appRoutes: Routes = [
   { path: "", component: HomeComponent },
+  {path: "ourProduct" , component:OurProductComponent},
   {path: "blog" , component: BlogComponent},
   {path: "contact" , component: ContactComponent},
   {path: "specialOffer" , component: SpecialOfferComponent},
