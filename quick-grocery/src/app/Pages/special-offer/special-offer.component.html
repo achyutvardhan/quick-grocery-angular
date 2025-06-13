@@ -1,1 +1,60 @@
-<p>special-offer works!</p>
+<!-- Special Offers Banner -->
+<section
+  class="hero-banner"
+  style="
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url('https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  "
+>
+  <div class="container">
+    <div class="hero-content">
+      <h2>Limited Time Special Offers</h2>
+      <p>
+        Enjoy amazing discounts on selected products. Hurry before stocks run
+        out!
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="product-catalogue">
+  <div class="container">
+    <h2 class="section-title">Current Promotions</h2>
+
+    <div class="special-offer-card">
+      <h3 class="offer-title">Weekly Deals</h3>
+      <div class="product-grid">
+        <div class="product-card" *ngFor="let item of product1">
+          <div class="product-image">
+            <app-weekly-deals [itemsObj3]="item" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="special-offer-card">
+      <h3 class="offer-title">Buy One Get One Free</h3>
+      <div class="product-grid">
+        <div class="product-card" *ngFor="let item of product2">
+          <div class="product-image">
+            <app-weekly-deals [itemsObj3]="item" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="special-offer-card">
+      <h3 class="offer-title">Clearance Items - up to 50% off</h3>
+      <div class="product-grid">
+        <div class="product-card" *ngFor="let item of product3">
+          <div class="product-image">
+            <app-weekly-deals [itemsObj3]="item" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

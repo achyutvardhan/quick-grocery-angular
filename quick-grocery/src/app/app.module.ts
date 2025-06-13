@@ -12,7 +12,10 @@ import { AppPromotionSectionComponent } from './app-promotion-section/app-promot
 import { HomeComponent } from './home/home.component';
 import { NavigationModule } from './Module/navigation.module';
 import { AddToCartComponent } from './Pages/add-to-cart/add-to-cart.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { SpecialOfferModule } from './Module/special-offer.module';
+
+
 
 
 @NgModule({
@@ -24,6 +27,7 @@ import {HttpClientModule} from '@angular/common/http'
     AppPromotionSectionComponent,
     HomeComponent,
     AddToCartComponent,
+   
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,8 @@ import {HttpClientModule} from '@angular/common/http'
     BlogModule,
     ContactModule,
     NavigationModule,
-    HttpClientModule
+    HttpClientModule,
+    SpecialOfferModule
   ],
   providers: [],
   bootstrap: [AppComponent]

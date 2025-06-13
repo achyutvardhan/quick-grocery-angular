@@ -317,6 +317,16 @@ img {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
+.offer-title{
+  padding: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+.section-title{
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+}
 .product-card {
   background-color: white;
   border-radius: 8px;
