@@ -22,6 +22,7 @@ export class BlogComponent implements OnInit {
 
   ngOnInit(): void {
     this.http.get<BlogPost[]>('http://localhost:3000/blog')
-      .subscribe(data => this.blogPosts = data);
+      .subscribe(data =>{ console.log(data);
+        this.blogPosts = data});
   }
 }
