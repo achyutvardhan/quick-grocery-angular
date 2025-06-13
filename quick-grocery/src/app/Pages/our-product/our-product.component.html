@@ -3,9 +3,9 @@
         <h2 class="section-title">Our Products</h2>
         <div class="category-filter">
             <ul>
-                <li><a [routerLink]="['/ourProduct']" class="active">All</a></li>
+                <li><a [routerLink]="['/ourProduct']"  class="active">All</a></li>
                 <li *ngFor="let item of categoryItems">
-                    <a [routerLink]="['/ourProduct',item]">{{item}}</a>
+                    <a [routerLink]="['/ourProduct',item]" routerLinkActive="active">{{item}}</a>
                 </li>
             </ul>
         </div>

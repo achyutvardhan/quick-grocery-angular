@@ -11,8 +11,6 @@ export class CategoryCardComponent {
   constructor(){
     this.itemsObj2 = {
       image:'',
-      name:'',
-      price:0,
       category:''
     };
   }
