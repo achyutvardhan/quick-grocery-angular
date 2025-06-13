@@ -1,5 +1,63 @@
 
 {
+  "blog": [
+    {
+    "id": 1,
+    "title": "10 Superfoods to Boost Your Immunity",
+    "date": "May 5, 2025",
+    "excerpt": "Discover the power of these amazing foods that can help strengthen your immune system naturally.",
+    "image": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "alt": "Superfoods",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "Easy Ways to Include More Vegetables in Your Diet",
+    "date": "May 2, 2025",
+    "excerpt": "Simple tips and tricks to incorporate more vegetables into your daily meals without sacrificing flavor.",
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "alt": "Cooking Vegetables",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Sustainable Grocery Shopping Guide",
+    "date": "April 27, 2025",
+    "excerpt": "Learn how to make eco-friendly choices when shopping for groceries and reduce your environmental impact.",
+    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "alt": "Sustainable Shopping",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "Weekend Meal Prep: Save Time and Eat Healthy",
+    "date": "April 20, 2025",
+    "excerpt": "A complete guide to efficient meal preparation that will save you time during the busy week.",
+    "image": "https://images.unsplash.com/photo-1556910633-5099dc3971e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "alt": "Meal Prep",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "title": "Seasonal Fruits: Why They're Better for You and the Planet",
+    "date": "April 15, 2025",
+    "excerpt": "The benefits of choosing seasonal produce and a handy guide to what's in season now.",
+    "image": "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "alt": "Seasonal Fruits",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "title": "Beginner's Guide to Baking Your Own Bread",
+    "date": "April 10, 2025",
+    "excerpt": "Simple recipes and techniques to help you start making delicious homemade bread.",
+    "image": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "alt": "Baking Bread",
+    "link": "#"
+  }
+
+  ],
+
   "product": {
     "Fruits": [
       {
