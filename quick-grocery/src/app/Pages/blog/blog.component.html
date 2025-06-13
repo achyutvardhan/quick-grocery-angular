@@ -1,93 +1,31 @@
 <!-- Blog Header -->
-<section class="hero-banner" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
-  <div class="container">
-    <div class="hero-content">
-      <h2>Food & Health Blog</h2>
-      <p>Tips, recipes, and insights for a healthier lifestyle</p>
+<section class="hero-banner"
+    style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+    <div class="container">
+        <div class="hero-content">
+            <h2>Food & Health Blog</h2>
+            <p>Tips, recipes, and insights for a healthier lifestyle</p>
+        </div>
     </div>
-  </div>
 </section>
 
 <!-- Blog Section -->
 <section class="blog-section">
-  <div class="container">
-    <h2 class="section-title">Latest Articles</h2>
-    <div class="blog-container">
+    <div class="container">
+        <h2 class="section-title">Latest Articles</h2>
+        <div class="blog-container">
 
-      <article class="blog-card">
-        <div class="blog-image">
-          <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Superfoods">
+            <article class="blog-card" *ngFor="let post of blogPosts">
+                <div class="blog-image">
+                    <img [src]="post.image" [alt]="post.title">
+                </div>
+                <div class="blog-content">
+                    <h3>{{ post.title }}</h3>
+                    <p class="date">{{ post.date }}</p>
+                    <p class="excerpt">{{ post.excerpt }}</p>
+                    <a [href]="post.link" class="read-more">Read More</a>
+                </div>
+            </article>
         </div>
-        <div class="blog-content">
-          <h3>10 Superfoods to Boost Your Immunity</h3>
-          <p class="date">May 5, 2025</p>
-          <p class="excerpt">Discover the power of these amazing foods that can help strengthen your immune system naturally.</p>
-          <a href="#" class="read-more">Read More</a>
-        </div>
-      </article>
-
-       <article class="blog-card">
-          <div class="blog-image">
-            <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Cooking Vegetables">
-          </div>
-          <div class="blog-content">
-            <h3>Easy Ways to Include More Vegetables in Your Diet</h3>
-            <p class="date">May 2, 2025</p>
-            <p class="excerpt">Simple tips and tricks to incorporate more vegetables into your daily meals without sacrificing flavor.</p>
-            <a href="#" class="read-more">Read More</a>
-          </div>
-        </article>
-     
-        <article class="blog-card">
-          <div class="blog-image">
-            <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Sustainable Shopping">
-          </div>
-          <div class="blog-content">
-            <h3>Sustainable Grocery Shopping Guide</h3>
-            <p class="date">April 27, 2025</p>
-            <p class="excerpt">Learn how to make eco-friendly choices when shopping for groceries and reduce your environmental impact.</p>
-            <a href="#" class="read-more">Read More</a>
-          </div>
-        </article>
-        
-       
-        <article class="blog-card">
-          <div class="blog-image">
-            <img src="https://images.unsplash.com/photo-1556910633-5099dc3971e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Meal Prep">
-          </div>
-          <div class="blog-content">
-            <h3>Weekend Meal Prep: Save Time and Eat Healthy</h3>
-            <p class="date">April 20, 2025</p>
-            <p class="excerpt">A complete guide to efficient meal preparation that will save you time during the busy week.</p>
-            <a href="#" class="read-more">Read More</a>
-          </div>
-        </article>
-        
-       
-        <article class="blog-card">
-          <div class="blog-image">
-            <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Seasonal Fruits">
-          </div>
-          <div class="blog-content">
-            <h3>Seasonal Fruits: Why They're Better for You and the Planet</h3>
-            <p class="date">April 15, 2025</p>
-            <p class="excerpt">The benefits of choosing seasonal produce and a handy guide to what's in season now.</p>
-            <a href="#" class="read-more">Read More</a>
-          </div>
-        </article>
-        
-     
-        <article class="blog-card">
-          <div class="blog-image">
-            <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Baking Bread">
-          </div>
-          <div class="blog-content">
-            <h3>Beginner's Guide to Baking Your Own Bread</h3>
-            <p class="date">April 10, 2025</p>
-            <p class="excerpt">Simple recipes and techniques to help you start making delicious homemade bread.</p>
-            <a href="#" class="read-more">Read More</a>
-          </div>
-        </article>
     </div>
-  </div>
 </section>

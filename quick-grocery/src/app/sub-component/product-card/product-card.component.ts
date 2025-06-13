@@ -1,5 +1,6 @@
-import { Component , Input } from '@angular/core';
+import { Component , Input  } from '@angular/core';
 
+import { DataService } from 'src/app/services/data.service';
 @Component({
   selector: 'app-product-card',
   templateUrl: './product-card.component.html',
@@ -7,13 +8,7 @@ import { Component , Input } from '@angular/core';
 })
 export class ProductCardComponent {
   @Input() itemsObj: any;
-
-  constructor() {
-    this.itemsObj = {
-      image: '',
-      name: '',
-      price: 0,
-      category: ''
-    };
+  constructor(private dataService: DataService )  {
   }
+
 }

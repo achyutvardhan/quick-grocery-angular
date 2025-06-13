@@ -1,23 +1,30 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable ,of } from 'rxjs';
-import { tap , shareReplay } from 'rxjs';
+import { observable, Observable } from 'rxjs';
+
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
   private apiUrl = 'http://localhost:3000/product';
-  private cache : any;
+  private cache :any = []
   constructor(private http: HttpClient) { }
 
-  getProducts() : Observable<any>{
-    if(this.cache){
-      return of(this.cache);
-    }
-    return this.http.get<any>(this.apiUrl).pipe(
-      tap(data => this.cache = data),
-      shareReplay(1)
-    );
+  getProducts(): Observable<any> {
+    return this.cache = this.http.get<any>(this.apiUrl);
   }
-  
+
+   getProductByCategory(category: string): Observable<any> {
+      const data  = this.http.get<any>(this.apiUrl);
+      return new Observable(observe => {
+          data.subscribe((res:any)=>{
+            const filteredData = res[category] || [];
+            observe.next(filteredData);
+            observe.error = (err:any) => {
+              console.error('Error fetching data:', err); }
+            observe.complete();
+          })
+      })
+   }
+
 }

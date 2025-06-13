@@ -16,7 +16,8 @@ export const appRoutes: Routes = [
   {path: "contact" , component: ContactComponent},
   {path: "specialOffer" , component: SpecialOfferComponent},
   {path:"topCategory" , component:TopCategoryComponent},
-  {path: 'add-to-cart', component:AddToCartComponent}
+  {path: 'add-to-cart', component:AddToCartComponent},
+  {path: 'ourProduct/:category', component: OurProductComponent},
 ];
 
 @NgModule({
