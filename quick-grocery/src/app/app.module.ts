@@ -12,9 +12,6 @@ import { AppPromotionSectionComponent } from './app-promotion-section/app-promot
 import { HomeComponent } from './home/home.component';
 import { NavigationModule } from './Module/navigation.module';
 import { AddToCartComponent } from './Pages/add-to-cart/add-to-cart.component';
-import { MembershipSectionComponent } from './membership-section/membership-section.component';
-import { RegisterNowComponent } from './sub-component/register-now/register-now.component';
-
 import {HttpClientModule} from '@angular/common/http'
 
 

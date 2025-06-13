@@ -1,7 +1,7 @@
 
 {
   "product": {
-    "fruits": [
+    "Fruits": [
       {
         "id": 1,
         "name": "Apple",
@@ -107,7 +107,7 @@
         ]
       }
     ],
-    "vegetables": [
+    "Vegetables": [
       {
         "id": 1,
         "name": "Carrot",
@@ -213,7 +213,7 @@
         ]
       }
     ],
-    "dairy": [
+    "Dairy": [
       {
         "id": 1,
         "name": "Milk",
@@ -319,7 +319,7 @@
         ]
       }
     ],
-    "bakery": [
+    "Bakery": [
       {
         "id": 1,
         "name": "Bread",
@@ -425,7 +425,7 @@
         ]
       }
     ],
-    "meat": [
+    "Meat": [
       {
         "id": 1,
         "name": "Chicken Breast",
