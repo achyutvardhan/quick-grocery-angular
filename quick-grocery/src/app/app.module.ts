@@ -28,8 +28,7 @@ import { ProfileModule } from './Module/profile.module';
     CategoryCardComponent,
     AppPromotionSectionComponent,
     HomeComponent,
-    ViewItemPageComponent,
-   
+    ViewItemPageComponent
   ],
   imports: [
     BrowserModule,

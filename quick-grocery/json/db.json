@@ -1,63 +1,69 @@
-
 {
   "blog": [
     {
-    "id": 1,
-    "title": "10 Superfoods to Boost Your Immunity",
-    "date": "May 5, 2025",
-    "excerpt": "Discover the power of these amazing foods that can help strengthen your immune system naturally.",
-    "image": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "alt": "Superfoods",
-    "link": "#"
-  },
-  {
-    "id": 2,
-    "title": "Easy Ways to Include More Vegetables in Your Diet",
-    "date": "May 2, 2025",
-    "excerpt": "Simple tips and tricks to incorporate more vegetables into your daily meals without sacrificing flavor.",
-    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "alt": "Cooking Vegetables",
-    "link": "#"
-  },
-  {
-    "id": 3,
-    "title": "Sustainable Grocery Shopping Guide",
-    "date": "April 27, 2025",
-    "excerpt": "Learn how to make eco-friendly choices when shopping for groceries and reduce your environmental impact.",
-    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "alt": "Sustainable Shopping",
-    "link": "#"
-  },
-  {
-    "id": 4,
-    "title": "Weekend Meal Prep: Save Time and Eat Healthy",
-    "date": "April 20, 2025",
-    "excerpt": "A complete guide to efficient meal preparation that will save you time during the busy week.",
-    "image": "https://images.unsplash.com/photo-1556910633-5099dc3971e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "alt": "Meal Prep",
-    "link": "#"
-  },
-  {
-    "id": 5,
-    "title": "Seasonal Fruits: Why They're Better for You and the Planet",
-    "date": "April 15, 2025",
-    "excerpt": "The benefits of choosing seasonal produce and a handy guide to what's in season now.",
-    "image": "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "alt": "Seasonal Fruits",
-    "link": "#"
-  },
-  {
-    "id": 6,
-    "title": "Beginner's Guide to Baking Your Own Bread",
-    "date": "April 10, 2025",
-    "excerpt": "Simple recipes and techniques to help you start making delicious homemade bread.",
-    "image": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "alt": "Baking Bread",
-    "link": "#"
-  }
-
+      "id": 1,
+      "title": "10 Superfoods to Boost Your Immunity",
+      "date": "May 5, 2025",
+      "excerpt": "Discover the power of these amazing foods that can help strengthen your immune system naturally.",
+      "image": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "alt": "Superfoods",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "Easy Ways to Include More Vegetables in Your Diet",
+      "date": "May 2, 2025",
+      "excerpt": "Simple tips and tricks to incorporate more vegetables into your daily meals without sacrificing flavor.",
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "alt": "Cooking Vegetables",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Sustainable Grocery Shopping Guide",
+      "date": "April 27, 2025",
+      "excerpt": "Learn how to make eco-friendly choices when shopping for groceries and reduce your environmental impact.",
+      "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "alt": "Sustainable Shopping",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "Weekend Meal Prep: Save Time and Eat Healthy",
+      "date": "April 20, 2025",
+      "excerpt": "A complete guide to efficient meal preparation that will save you time during the busy week.",
+      "image": "https://images.unsplash.com/photo-1556910633-5099dc3971e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "alt": "Meal Prep",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "title": "Seasonal Fruits: Why They're Better for You and the Planet",
+      "date": "April 15, 2025",
+      "excerpt": "The benefits of choosing seasonal produce and a handy guide to what's in season now.",
+      "image": "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "alt": "Seasonal Fruits",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "title": "Beginner's Guide to Baking Your Own Bread",
+      "date": "April 10, 2025",
+      "excerpt": "Simple recipes and techniques to help you start making delicious homemade bread.",
+      "image": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "alt": "Baking Bread",
+      "link": "#"
+    }
   ],
-
+  "cartItem": [
+    {
+      "id": "ffa8",
+      "name": "Broccoli",
+      "price": 5.16,
+      "image": "https://example.com/images/broccoli.jpg",
+      "quantity": 4
+    }
+  ],
   "product": {
     "Fruits": [
       {
@@ -72,7 +78,11 @@
         "price": 0.99,
         "unit": "each",
         "quantity": 1,
-        "features": ["Red/Green skin", "Vitamin C", "USA origin"]
+        "features": [
+          "Red/Green skin",
+          "Vitamin C",
+          "USA origin"
+        ]
       },
       {
         "id": 2,
@@ -86,7 +96,11 @@
         "price": 0.59,
         "unit": "each",
         "quantity": 1,
-        "features": ["Yellow peel", "Easy to digest", "Fair-trade"]
+        "features": [
+          "Yellow peel",
+          "Easy to digest",
+          "Fair-trade"
+        ]
       },
       {
         "id": 3,
@@ -100,7 +114,11 @@
         "price": 2.99,
         "unit": "1 lb",
         "quantity": 1,
-        "features": ["Bright red", "Seeded exterior", "California grown"]
+        "features": [
+          "Bright red",
+          "Seeded exterior",
+          "California grown"
+        ]
       },
       {
         "id": 4,
@@ -114,7 +132,11 @@
         "price": 1.19,
         "unit": "each",
         "quantity": 1,
-        "features": ["Navel variety", "Florida origin", "Citrus aroma"]
+        "features": [
+          "Navel variety",
+          "Florida origin",
+          "Citrus aroma"
+        ]
       },
       {
         "id": 5,
@@ -128,7 +150,11 @@
         "price": 2.49,
         "unit": "1 lb",
         "quantity": 1,
-        "features": ["Purple/green", "Resveratrol rich", "Clamshell pack"]
+        "features": [
+          "Purple/green",
+          "Resveratrol rich",
+          "Clamshell pack"
+        ]
       },
       {
         "id": 6,
@@ -142,7 +168,11 @@
         "price": 1.79,
         "unit": "each",
         "quantity": 1,
-        "features": ["Alphonso variety", "Vitamin A", "Naturally ripened"]
+        "features": [
+          "Alphonso variety",
+          "Vitamin A",
+          "Naturally ripened"
+        ]
       },
       {
         "id": 7,
@@ -156,7 +186,11 @@
         "price": 3.29,
         "unit": "each",
         "quantity": 1,
-        "features": ["Costa Rica origin", "Rich in bromelain", "Spiky rind"]
+        "features": [
+          "Costa Rica origin",
+          "Rich in bromelain",
+          "Spiky rind"
+        ]
       },
       {
         "id": 8,
@@ -170,10 +204,13 @@
         "price": 3.49,
         "unit": "1 pint",
         "quantity": 1,
-        "features": ["Wild variety", "Antioxidant rich", "Hand-picked"]
+        "features": [
+          "Wild variety",
+          "Antioxidant rich",
+          "Hand-picked"
+        ]
       }
     ],
-
     "Vegetables": [
       {
         "id": 1,
@@ -187,7 +224,11 @@
         "price": 0.79,
         "unit": "each",
         "quantity": 1,
-        "features": ["Locally grown", "Washed & trimmed", "Sweet flavor"]
+        "features": [
+          "Locally grown",
+          "Washed & trimmed",
+          "Sweet flavor"
+        ]
       },
       {
         "id": 2,
@@ -201,7 +242,11 @@
         "price": 1.29,
         "unit": "each",
         "quantity": 1,
-        "features": ["Non-GMO", "California grown", "Steams quickly"]
+        "features": [
+          "Non-GMO",
+          "California grown",
+          "Steams quickly"
+        ]
       },
       {
         "id": 3,
@@ -215,7 +260,11 @@
         "price": 1.99,
         "unit": "bag",
         "quantity": 1,
-        "features": ["Triple-washed", "Organic certified", "Tender texture"]
+        "features": [
+          "Triple-washed",
+          "Organic certified",
+          "Tender texture"
+        ]
       },
       {
         "id": 4,
@@ -229,7 +278,11 @@
         "price": 0.89,
         "unit": "each",
         "quantity": 1,
-        "features": ["High lycopene", "Greenhouse grown", "Round variety"]
+        "features": [
+          "High lycopene",
+          "Greenhouse grown",
+          "Round variety"
+        ]
       },
       {
         "id": 5,
@@ -243,7 +296,11 @@
         "price": 0.49,
         "unit": "each",
         "quantity": 1,
-        "features": ["Idaho grown", "Brown skin", "Fluffy interior"]
+        "features": [
+          "Idaho grown",
+          "Brown skin",
+          "Fluffy interior"
+        ]
       },
       {
         "id": 6,
@@ -257,7 +314,11 @@
         "price": 0.39,
         "unit": "each",
         "quantity": 1,
-        "features": ["High quercetin", "Layered flesh", "Versatile"]
+        "features": [
+          "High quercetin",
+          "Layered flesh",
+          "Versatile"
+        ]
       },
       {
         "id": 7,
@@ -271,7 +332,11 @@
         "price": 1.09,
         "unit": "head",
         "quantity": 1,
-        "features": ["Hydroponic grown", "Pre-chilled", "Crunchy leaves"]
+        "features": [
+          "Hydroponic grown",
+          "Pre-chilled",
+          "Crunchy leaves"
+        ]
       },
       {
         "id": 8,
@@ -285,10 +350,13 @@
         "price": 0.99,
         "unit": "each",
         "quantity": 1,
-        "features": ["Thin skin", "Hydrating", "Plastic wrapped"]
+        "features": [
+          "Thin skin",
+          "Hydrating",
+          "Plastic wrapped"
+        ]
       }
     ],
-
     "Dairy": [
       {
         "id": 1,
@@ -302,7 +370,11 @@
         "price": 3.49,
         "unit": "gallon",
         "quantity": 1,
-        "features": ["rBST-free", "Creamy taste", "Family size"]
+        "features": [
+          "rBST-free",
+          "Creamy taste",
+          "Family size"
+        ]
       },
       {
         "id": 2,
@@ -316,7 +388,11 @@
         "price": 4.99,
         "unit": "block",
         "quantity": 1,
-        "features": ["Wisconsin made", "Rich flavor", "No additives"]
+        "features": [
+          "Wisconsin made",
+          "Rich flavor",
+          "No additives"
+        ]
       },
       {
         "id": 3,
@@ -330,7 +406,11 @@
         "price": 1.29,
         "unit": "cup",
         "quantity": 1,
-        "features": ["Probiotics", "Low fat", "Creamy texture"]
+        "features": [
+          "Probiotics",
+          "Low fat",
+          "Creamy texture"
+        ]
       },
       {
         "id": 4,
@@ -344,7 +424,11 @@
         "price": 2.79,
         "unit": "stick",
         "quantity": 1,
-        "features": ["Creamy texture", "No salt", "Natural color"]
+        "features": [
+          "Creamy texture",
+          "No salt",
+          "Natural color"
+        ]
       },
       {
         "id": 5,
@@ -358,7 +442,11 @@
         "price": 1.99,
         "unit": "pint",
         "quantity": 1,
-        "features": ["36% fat", "Pour-spout", "Locally sourced"]
+        "features": [
+          "36% fat",
+          "Pour-spout",
+          "Locally sourced"
+        ]
       },
       {
         "id": 6,
@@ -372,7 +460,11 @@
         "price": 3.99,
         "unit": "pint",
         "quantity": 1,
-        "features": ["Real cream", "Natural flavor", "Smooth texture"]
+        "features": [
+          "Real cream",
+          "Natural flavor",
+          "Smooth texture"
+        ]
       },
       {
         "id": 7,
@@ -386,7 +478,11 @@
         "price": 2.49,
         "unit": "cup",
         "quantity": 1,
-        "features": ["4% milkfat", "Cultured", "Resealable cup"]
+        "features": [
+          "4% milkfat",
+          "Cultured",
+          "Resealable cup"
+        ]
       },
       {
         "id": 8,
@@ -400,10 +496,13 @@
         "price": 1.69,
         "unit": "tub",
         "quantity": 1,
-        "features": ["Thick consistency", "No gelatin", "16-oz size"]
+        "features": [
+          "Thick consistency",
+          "No gelatin",
+          "16-oz size"
+        ]
       }
     ],
-
     "Bakery": [
       {
         "id": 1,
@@ -417,7 +516,11 @@
         "price": 2.49,
         "unit": "loaf",
         "quantity": 1,
-        "features": ["No preservatives", "Soft crumb", "Fiber rich"]
+        "features": [
+          "No preservatives",
+          "Soft crumb",
+          "Fiber rich"
+        ]
       },
       {
         "id": 2,
@@ -431,7 +534,11 @@
         "price": 2.19,
         "unit": "each",
         "quantity": 1,
-        "features": ["Hand-rolled", "Baked daily", "Golden layers"]
+        "features": [
+          "Hand-rolled",
+          "Baked daily",
+          "Golden layers"
+        ]
       },
       {
         "id": 3,
@@ -445,7 +552,11 @@
         "price": 1.99,
         "unit": "each",
         "quantity": 1,
-        "features": ["Moist crumb", "Individually wrapped", "120 g"]
+        "features": [
+          "Moist crumb",
+          "Individually wrapped",
+          "120 g"
+        ]
       },
       {
         "id": 4,
@@ -459,7 +570,11 @@
         "price": 1.49,
         "unit": "each",
         "quantity": 1,
-        "features": ["Boiled then baked", "6-pack", "Soft interior"]
+        "features": [
+          "Boiled then baked",
+          "6-pack",
+          "Soft interior"
+        ]
       },
       {
         "id": 5,
@@ -473,7 +588,11 @@
         "price": 1.29,
         "unit": "each",
         "quantity": 1,
-        "features": ["Freshly fried", "Sweet coating", "Soft texture"]
+        "features": [
+          "Freshly fried",
+          "Sweet coating",
+          "Soft texture"
+        ]
       },
       {
         "id": 6,
@@ -487,7 +606,11 @@
         "price": 2.79,
         "unit": "loaf",
         "quantity": 1,
-        "features": ["20-inch loaf", "Soft interior", "Traditional recipe"]
+        "features": [
+          "20-inch loaf",
+          "Soft interior",
+          "Traditional recipe"
+        ]
       },
       {
         "id": 7,
@@ -501,7 +624,11 @@
         "price": 9.99,
         "unit": "cake",
         "quantity": 1,
-        "features": ["Ganache topping", "Serves 8", "Made to order"]
+        "features": [
+          "Ganache topping",
+          "Serves 8",
+          "Made to order"
+        ]
       },
       {
         "id": 8,
@@ -515,10 +642,13 @@
         "price": 7.49,
         "unit": "pie",
         "quantity": 1,
-        "features": ["9-inch", "Cinnamon spiced", "Hand crimped"]
+        "features": [
+          "9-inch",
+          "Cinnamon spiced",
+          "Hand crimped"
+        ]
       }
     ],
-
     "Meat": [
       {
         "id": 1,
@@ -532,7 +662,11 @@
         "price": 5.99,
         "unit": "lb",
         "quantity": 1,
-        "features": ["Free-range", "Air chilled", "Individually sealed"]
+        "features": [
+          "Free-range",
+          "Air chilled",
+          "Individually sealed"
+        ]
       },
       {
         "id": 2,
@@ -546,7 +680,11 @@
         "price": 9.99,
         "unit": "12 oz",
         "quantity": 1,
-        "features": ["Grain-fed", "Rich flavor", "Tender cut"]
+        "features": [
+          "Grain-fed",
+          "Rich flavor",
+          "Tender cut"
+        ]
       },
       {
         "id": 3,
@@ -560,7 +698,11 @@
         "price": 4.49,
         "unit": "pack",
         "quantity": 1,
-        "features": ["12 slices", "No MSG", "Smoked flavor"]
+        "features": [
+          "12 slices",
+          "No MSG",
+          "Smoked flavor"
+        ]
       },
       {
         "id": 4,
@@ -574,7 +716,11 @@
         "price": 5.49,
         "unit": "lb",
         "quantity": 1,
-        "features": ["No added hormones", "Tender texture", "Vacuum packed"]
+        "features": [
+          "No added hormones",
+          "Tender texture",
+          "Vacuum packed"
+        ]
       },
       {
         "id": 5,
@@ -588,7 +734,11 @@
         "price": 6.99,
         "unit": "lb",
         "quantity": 1,
-        "features": ["All natural", "Versatile", "1-lb pack"]
+        "features": [
+          "All natural",
+          "Versatile",
+          "1-lb pack"
+        ]
       },
       {
         "id": 6,
@@ -602,7 +752,11 @@
         "price": 8.99,
         "unit": "lb",
         "quantity": 1,
-        "features": ["Rich flavor", "New Zealand origin", "4-pack"]
+        "features": [
+          "Rich flavor",
+          "New Zealand origin",
+          "4-pack"
+        ]
       },
       {
         "id": 7,
@@ -616,7 +770,11 @@
         "price": 4.99,
         "unit": "lb",
         "quantity": 1,
-        "features": ["Pre-sliced", "Family size", "Smoked"]
+        "features": [
+          "Pre-sliced",
+          "Family size",
+          "Smoked"
+        ]
       },
       {
         "id": 8,
@@ -630,9 +788,12 @@
         "price": 3.99,
         "unit": "pack",
         "quantity": 1,
-        "features": ["Six links", "Herb seasoned", "No nitrates"]
+        "features": [
+          "Six links",
+          "Herb seasoned",
+          "No nitrates"
+        ]
       }
     ]
   }
-  
 }

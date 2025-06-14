@@ -1,0 +1,16 @@
+<article class="cp-card" data-price="2.49">
+    <img src="https://placehold.co/100x100" alt="Apples" class="cp-card-img">
+    <div class="cp-card-details">
+        <div class="cp-title">Organic Apples</div>
+        <div><span class="cp-price">$2.49</span><span class="cp-unit">/ lb</span></div>
+
+        <div>
+            <div class="cp-qty-group">
+                <button class="cp-qty-btn" onclick="cpChangeQty(this,-1)">−</button>
+                <input type="number" min="1" value="2" class="cp-qty-input" oninput="cpRecalc()">
+                <button class="cp-qty-btn" onclick="cpChangeQty(this,1)">+</button>
+            </div>
+            <span class="cp-remove" onclick="cpRemove(this)">Remove</span>
+        </div>
+    </div>
+</article>
