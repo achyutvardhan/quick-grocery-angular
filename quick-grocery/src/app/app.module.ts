@@ -14,6 +14,8 @@ import { NavigationModule } from './Module/navigation.module';
 import { AddToCartComponent } from './Pages/add-to-cart/add-to-cart.component';
 import {HttpClientModule} from '@angular/common/http';
 import { SpecialOfferModule } from './Module/special-offer.module';
+import { ViewItemPageComponent } from './Pages/view-item-page/view-item-page.component';
+import { ProfileModule } from './Module/profile.module';
 
 
 
@@ -26,7 +28,7 @@ import { SpecialOfferModule } from './Module/special-offer.module';
     CategoryCardComponent,
     AppPromotionSectionComponent,
     HomeComponent,
-    AddToCartComponent,
+    ViewItemPageComponent,
    
   ],
   imports: [
@@ -37,7 +39,8 @@ import { SpecialOfferModule } from './Module/special-offer.module';
     ContactModule,
     NavigationModule,
     HttpClientModule,
-    SpecialOfferModule
+    SpecialOfferModule,
+    ProfileModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

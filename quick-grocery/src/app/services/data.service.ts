@@ -27,4 +27,18 @@ export class DataService {
       })
    }
 
+   getProductByCategoryAndName(category:string , name:string): Observable<any>{
+     return new Observable(observe =>{
+        this.getProductByCategory(category).subscribe((data)=>{
+          const product = data.find((item:any)=> item.name === name);
+          if(product){
+            observe.next(product);
+            observe.complete();
+          }else {
+            observe.error('Product not found');
+          }
+        })
+     })
+   }
+
 }

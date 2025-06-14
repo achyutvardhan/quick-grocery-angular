@@ -63,530 +63,574 @@
       {
         "id": 1,
         "name": "Apple",
+        "description": "Crisp, juicy, and rich in fiber.",
+        "images": [
+          "https://example.com/images/apple.jpg",
+          "https://example.com/images/apple_side.jpg",
+          "https://example.com/images/apple_sliced.jpg"
+        ],
         "price": 0.99,
-        "img": "https://example.com/images/apple.jpg",
-        "features": [
-          "Crisp texture",
-          "Red/Green color",
-          "Rich in fiber",
-          "Contains vitamin C",
-          "USA origin"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Red/Green skin", "Vitamin C", "USA origin"]
       },
       {
         "id": 2,
         "name": "Banana",
+        "description": "Naturally sweet and potassium-rich.",
+        "images": [
+          "https://example.com/images/banana.jpg",
+          "https://example.com/images/banana_bunch.jpg",
+          "https://example.com/images/banana_peeled.jpg"
+        ],
         "price": 0.59,
-        "img": "https://example.com/images/banana.jpg",
-        "features": [
-          "Soft texture",
-          "Yellow color",
-          "High potassium",
-          "Easily digestible",
-          "Fair-trade certified"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Yellow peel", "Easy to digest", "Fair-trade"]
       },
       {
         "id": 3,
         "name": "Strawberry",
+        "description": "Sweet berries packed with antioxidants.",
+        "images": [
+          "https://example.com/images/strawberry.jpg",
+          "https://example.com/images/strawberry_basket.jpg",
+          "https://example.com/images/strawberry_closeup.jpg"
+        ],
         "price": 2.99,
-        "img": "https://example.com/images/strawberry.jpg",
-        "features": [
-          "Sweet flavor",
-          "Bright red color",
-          "High antioxidants",
-          "Seeded exterior",
-          "California grown"
-        ]
+        "unit": "1 lb",
+        "quantity": 1,
+        "features": ["Bright red", "Seeded exterior", "California grown"]
       },
       {
         "id": 4,
         "name": "Orange",
+        "description": "Juicy citrus rich in vitamin C.",
+        "images": [
+          "https://example.com/images/orange.jpg",
+          "https://example.com/images/orange_halved.jpg",
+          "https://example.com/images/orange_segments.jpg"
+        ],
         "price": 1.19,
-        "img": "https://example.com/images/orange.jpg",
-        "features": [
-          "Citrus aroma",
-          "Juicy segments",
-          "Rich in vitamin C",
-          "Navel variety",
-          "Florida origin"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Navel variety", "Florida origin", "Citrus aroma"]
       },
       {
         "id": 5,
         "name": "Grape",
+        "description": "Seedless, sweet-tart snack grapes.",
+        "images": [
+          "https://example.com/images/grape.jpg",
+          "https://example.com/images/grape_bunch.jpg",
+          "https://example.com/images/grape_close.jpg"
+        ],
         "price": 2.49,
-        "img": "https://example.com/images/grape.jpg",
-        "features": [
-          "Seedless variety",
-          "Sweet/tart taste",
-          "Purple/green colors",
-          "Rich in resveratrol",
-          "Packed in clamshell"
-        ]
+        "unit": "1 lb",
+        "quantity": 1,
+        "features": ["Purple/green", "Resveratrol rich", "Clamshell pack"]
       },
       {
         "id": 6,
         "name": "Mango",
+        "description": "Tropical fruit with creamy flesh.",
+        "images": [
+          "https://example.com/images/mango.jpg",
+          "https://example.com/images/mango_cut.jpg",
+          "https://example.com/images/mango_side.jpg"
+        ],
         "price": 1.79,
-        "img": "https://example.com/images/mango.jpg",
-        "features": [
-          "Tropical flavor",
-          "Orange flesh",
-          "High vitamin A",
-          "Indian Alphonso",
-          "Naturally ripened"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Alphonso variety", "Vitamin A", "Naturally ripened"]
       },
       {
         "id": 7,
         "name": "Pineapple",
+        "description": "Sweet-tart fruit, crown intact.",
+        "images": [
+          "https://example.com/images/pineapple.jpg",
+          "https://example.com/images/pineapple_sliced.jpg",
+          "https://example.com/images/pineapple_ring.jpg"
+        ],
         "price": 3.29,
-        "img": "https://example.com/images/pineapple.jpg",
-        "features": [
-          "Spiky rind",
-          "Sweet-tart taste",
-          "Rich in bromelain",
-          "Crown intact",
-          "Costa Rica origin"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Costa Rica origin", "Rich in bromelain", "Spiky rind"]
       },
       {
         "id": 8,
         "name": "Blueberry",
+        "description": "Tiny berries bursting with flavor.",
+        "images": [
+          "https://example.com/images/blueberry.jpg",
+          "https://example.com/images/blueberry_bowl.jpg",
+          "https://example.com/images/blueberry_close.jpg"
+        ],
         "price": 3.49,
-        "img": "https://example.com/images/blueberry.jpg",
-        "features": [
-          "Small berries",
-          "Deep blue color",
-          "High antioxidants",
-          "Wild variety",
-          "Hand-picked"
-        ]
+        "unit": "1 pint",
+        "quantity": 1,
+        "features": ["Wild variety", "Antioxidant rich", "Hand-picked"]
       }
     ],
+
     "Vegetables": [
       {
         "id": 1,
         "name": "Carrot",
+        "description": "Crunchy orange roots full of beta-carotene.",
+        "images": [
+          "https://example.com/images/carrot.jpg",
+          "https://example.com/images/carrot_bunch.jpg",
+          "https://example.com/images/carrot_sliced.jpg"
+        ],
         "price": 0.79,
-        "img": "https://example.com/images/carrot.jpg",
-        "features": [
-          "Crunchy texture",
-          "Orange color",
-          "Beta-carotene source",
-          "Washed & trimmed",
-          "Locally grown"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Locally grown", "Washed & trimmed", "Sweet flavor"]
       },
       {
         "id": 2,
         "name": "Broccoli",
+        "description": "Tender green florets, vitamin K rich.",
+        "images": [
+          "https://example.com/images/broccoli.jpg",
+          "https://example.com/images/broccoli_florets.jpg",
+          "https://example.com/images/broccoli_steamed.jpg"
+        ],
         "price": 1.29,
-        "img": "https://example.com/images/broccoli.jpg",
-        "features": [
-          "Green florets",
-          "Rich in vitamin K",
-          "Steams quickly",
-          "Non-GMO",
-          "California grown"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Non-GMO", "California grown", "Steams quickly"]
       },
       {
         "id": 3,
         "name": "Spinach",
+        "description": "Baby leaves, iron-rich and ready to eat.",
+        "images": [
+          "https://example.com/images/spinach.jpg",
+          "https://example.com/images/spinach_leaves.jpg",
+          "https://example.com/images/spinach_salad.jpg"
+        ],
         "price": 1.99,
-        "img": "https://example.com/images/spinach.jpg",
-        "features": [
-          "Baby leaves",
-          "Iron rich",
-          "Ready to eat",
-          "Triple washed",
-          "Organic certified"
-        ]
+        "unit": "bag",
+        "quantity": 1,
+        "features": ["Triple-washed", "Organic certified", "Tender texture"]
       },
       {
         "id": 4,
         "name": "Tomato",
+        "description": "Juicy vine-ripened tomatoes.",
+        "images": [
+          "https://example.com/images/tomato.jpg",
+          "https://example.com/images/tomato_slice.jpg",
+          "https://example.com/images/tomato_vine.jpg"
+        ],
         "price": 0.89,
-        "img": "https://example.com/images/tomato.jpg",
-        "features": [
-          "Vine-ripened",
-          "Juicy flesh",
-          "High lycopene",
-          "Round variety",
-          "Greenhouse grown"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["High lycopene", "Greenhouse grown", "Round variety"]
       },
       {
         "id": 5,
         "name": "Potato",
+        "description": "Starchy russet, ideal for baking.",
+        "images": [
+          "https://example.com/images/potato.jpg",
+          "https://example.com/images/potato_cut.jpg",
+          "https://example.com/images/potato_bag.jpg"
+        ],
         "price": 0.49,
-        "img": "https://example.com/images/potato.jpg",
-        "features": [
-          "Russet variety",
-          "Starchy texture",
-          "Ideal for baking",
-          "Brown skin",
-          "Idaho grown"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Idaho grown", "Brown skin", "Fluffy interior"]
       },
       {
         "id": 6,
         "name": "Onion",
+        "description": "Pungent yellow onion with long shelf life.",
+        "images": [
+          "https://example.com/images/onion.jpg",
+          "https://example.com/images/onion_cut.jpg",
+          "https://example.com/images/onion_sack.jpg"
+        ],
         "price": 0.39,
-        "img": "https://example.com/images/onion.jpg",
-        "features": [
-          "Yellow variety",
-          "Pungent aroma",
-          "Layered flesh",
-          "High quercetin",
-          "Long shelf life"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["High quercetin", "Layered flesh", "Versatile"]
       },
       {
         "id": 7,
         "name": "Lettuce",
+        "description": "Crisp iceberg lettuce, low in calories.",
+        "images": [
+          "https://example.com/images/lettuce.jpg",
+          "https://example.com/images/lettuce_head.jpg",
+          "https://example.com/images/lettuce_salad.jpg"
+        ],
         "price": 1.09,
-        "img": "https://example.com/images/lettuce.jpg",
-        "features": [
-          "Iceberg variety",
-          "Crisp leaves",
-          "Low calories",
-          "Hydroponic grown",
-          "Pre-chilled"
-        ]
+        "unit": "head",
+        "quantity": 1,
+        "features": ["Hydroponic grown", "Pre-chilled", "Crunchy leaves"]
       },
       {
         "id": 8,
         "name": "Cucumber",
+        "description": "Seedless English cucumber, refreshing crunch.",
+        "images": [
+          "https://example.com/images/cucumber.jpg",
+          "https://example.com/images/cucumber_slice.jpg",
+          "https://example.com/images/cucumber_salad.jpg"
+        ],
         "price": 0.99,
-        "img": "https://example.com/images/cucumber.jpg",
-        "features": [
-          "English seedless",
-          "Thin skin",
-          "Hydrating",
-          "Crunchy texture",
-          "Plastic wrapped"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Thin skin", "Hydrating", "Plastic wrapped"]
       }
     ],
+
     "Dairy": [
       {
         "id": 1,
         "name": "Milk",
+        "description": "Whole milk, pasteurized and vitamin D fortified.",
+        "images": [
+          "https://example.com/images/milk.jpg",
+          "https://example.com/images/milk_glass.jpg",
+          "https://example.com/images/milk_jug.jpg"
+        ],
         "price": 3.49,
-        "img": "https://example.com/images/milk.jpg",
-        "features": [
-          "Whole milk",
-          "Pasteurized",
-          "Vitamin D fortified",
-          "1-gallon jug",
-          "rBST-free"
-        ]
+        "unit": "gallon",
+        "quantity": 1,
+        "features": ["rBST-free", "Creamy taste", "Family size"]
       },
       {
         "id": 2,
         "name": "Cheese",
+        "description": "Sharp cheddar aged 12 months.",
+        "images": [
+          "https://example.com/images/cheese.jpg",
+          "https://example.com/images/cheese_block.jpg",
+          "https://example.com/images/cheese_slice.jpg"
+        ],
         "price": 4.99,
-        "img": "https://example.com/images/cheese.jpg",
-        "features": [
-          "Cheddar cheese",
-          "Aged 12 months",
-          "Rich flavor",
-          "Block form",
-          "Wisconsin made"
-        ]
+        "unit": "block",
+        "quantity": 1,
+        "features": ["Wisconsin made", "Rich flavor", "No additives"]
       },
       {
         "id": 3,
         "name": "Yogurt",
+        "description": "Greek-style, high-protein plain yogurt.",
+        "images": [
+          "https://example.com/images/yogurt.jpg",
+          "https://example.com/images/yogurt_bowl.jpg",
+          "https://example.com/images/yogurt_cup.jpg"
+        ],
         "price": 1.29,
-        "img": "https://example.com/images/yogurt.jpg",
-        "features": [
-          "Greek style",
-          "Plain unsweetened",
-          "High protein",
-          "Probiotics added",
-          "Low fat"
-        ]
+        "unit": "cup",
+        "quantity": 1,
+        "features": ["Probiotics", "Low fat", "Creamy texture"]
       },
       {
         "id": 4,
         "name": "Butter",
+        "description": "Unsalted butter from grass-fed cows.",
+        "images": [
+          "https://example.com/images/butter.jpg",
+          "https://example.com/images/butter_stick.jpg",
+          "https://example.com/images/butter_spread.jpg"
+        ],
         "price": 2.79,
-        "img": "https://example.com/images/butter.jpg",
-        "features": [
-          "Unsalted",
-          "Creamy texture",
-          "Made from cream",
-          "Stick format",
-          "Grass-fed cows"
-        ]
+        "unit": "stick",
+        "quantity": 1,
+        "features": ["Creamy texture", "No salt", "Natural color"]
       },
       {
         "id": 5,
         "name": "Cream",
+        "description": "Heavy whipping cream, ultra-pasteurized.",
+        "images": [
+          "https://example.com/images/cream.jpg",
+          "https://example.com/images/cream_pour.jpg",
+          "https://example.com/images/cream_carton.jpg"
+        ],
         "price": 1.99,
-        "img": "https://example.com/images/cream.jpg",
-        "features": [
-          "Heavy whipping",
-          "36% fat",
-          "Ultra-pasteurized",
-          "Pour-spout carton",
-          "Locally sourced"
-        ]
+        "unit": "pint",
+        "quantity": 1,
+        "features": ["36% fat", "Pour-spout", "Locally sourced"]
       },
       {
         "id": 6,
         "name": "Ice Cream",
+        "description": "Vanilla bean ice cream, slow churned.",
+        "images": [
+          "https://example.com/images/icecream.jpg",
+          "https://example.com/images/icecream_scoop.jpg",
+          "https://example.com/images/icecream_pint.jpg"
+        ],
         "price": 3.99,
-        "img": "https://example.com/images/icecream.jpg",
-        "features": [
-          "Vanilla bean",
-          "Real cream",
-          "Natural flavor",
-          "1-pint container",
-          "Slow churned"
-        ]
+        "unit": "pint",
+        "quantity": 1,
+        "features": ["Real cream", "Natural flavor", "Smooth texture"]
       },
       {
         "id": 7,
         "name": "Cottage Cheese",
+        "description": "Small-curd, high-protein cottage cheese.",
+        "images": [
+          "https://example.com/images/cottage_cheese.jpg",
+          "https://example.com/images/cottage_cheese_bowl.jpg",
+          "https://example.com/images/cottage_cheese_cup.jpg"
+        ],
         "price": 2.49,
-        "img": "https://example.com/images/cottage_cheese.jpg",
-        "features": [
-          "4% milkfat",
-          "Small curd",
-          "High protein",
-          "Cultured product",
-          "Resealable cup"
-        ]
+        "unit": "cup",
+        "quantity": 1,
+        "features": ["4% milkfat", "Cultured", "Resealable cup"]
       },
       {
         "id": 8,
         "name": "Sour Cream",
+        "description": "Rich & tangy all-natural sour cream.",
+        "images": [
+          "https://example.com/images/sour_cream.jpg",
+          "https://example.com/images/sour_cream_spoon.jpg",
+          "https://example.com/images/sour_cream_tub.jpg"
+        ],
         "price": 1.69,
-        "img": "https://example.com/images/sour_cream.jpg",
-        "features": [
-          "Rich & tangy",
-          "All-natural",
-          "Thick consistency",
-          "No gelatin added",
-          "16-oz tub"
-        ]
+        "unit": "tub",
+        "quantity": 1,
+        "features": ["Thick consistency", "No gelatin", "16-oz size"]
       }
     ],
+
     "Bakery": [
       {
         "id": 1,
         "name": "Bread",
+        "description": "Whole-wheat loaf, baked fresh daily.",
+        "images": [
+          "https://example.com/images/bread.jpg",
+          "https://example.com/images/bread_sliced.jpg",
+          "https://example.com/images/bread_loaf.jpg"
+        ],
         "price": 2.49,
-        "img": "https://example.com/images/bread.jpg",
-        "features": [
-          "Whole wheat",
-          "Fresh baked",
-          "No preservatives",
-          "Soft crumb",
-          "Sliced loaf"
-        ]
+        "unit": "loaf",
+        "quantity": 1,
+        "features": ["No preservatives", "Soft crumb", "Fiber rich"]
       },
       {
         "id": 2,
         "name": "Croissant",
+        "description": "Flaky, butter-rich French pastry.",
+        "images": [
+          "https://example.com/images/croissant.jpg",
+          "https://example.com/images/croissant_stack.jpg",
+          "https://example.com/images/croissant_cut.jpg"
+        ],
         "price": 2.19,
-        "img": "https://example.com/images/croissant.jpg",
-        "features": [
-          "Flaky layers",
-          "Butter rich",
-          "French recipe",
-          "Hand rolled",
-          "Baked daily"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Hand-rolled", "Baked daily", "Golden layers"]
       },
       {
         "id": 3,
         "name": "Muffin",
+        "description": "Blueberry muffin with real berries.",
+        "images": [
+          "https://example.com/images/muffin.jpg",
+          "https://example.com/images/muffin_half.jpg",
+          "https://example.com/images/muffin_stack.jpg"
+        ],
         "price": 1.99,
-        "img": "https://example.com/images/muffin.jpg",
-        "features": [
-          "Blueberry flavor",
-          "Moist crumb",
-          "Real berries",
-          "Individually wrapped",
-          "120g portion"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Moist crumb", "Individually wrapped", "120 g"]
       },
       {
         "id": 4,
         "name": "Bagel",
+        "description": "Chewy NY-style plain bagel.",
+        "images": [
+          "https://example.com/images/bagel.jpg",
+          "https://example.com/images/bagel_stack.jpg",
+          "https://example.com/images/bagel_cut.jpg"
+        ],
         "price": 1.49,
-        "img": "https://example.com/images/bagel.jpg",
-        "features": [
-          "Plain bagel",
-          "Chewy texture",
-          "Boiled then baked",
-          "6-pack",
-          "NY-style"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Boiled then baked", "6-pack", "Soft interior"]
       },
       {
         "id": 5,
         "name": "Donut",
+        "description": "Light yeast-raised donut with glaze.",
+        "images": [
+          "https://example.com/images/donut.jpg",
+          "https://example.com/images/donut_stack.jpg",
+          "https://example.com/images/donut_close.jpg"
+        ],
         "price": 1.29,
-        "img": "https://example.com/images/donut.jpg",
-        "features": [
-          "Glazed topping",
-          "Yeast-raised",
-          "Light texture",
-          "Sweet coating",
-          "Freshly fried"
-        ]
+        "unit": "each",
+        "quantity": 1,
+        "features": ["Freshly fried", "Sweet coating", "Soft texture"]
       },
       {
         "id": 6,
         "name": "Baguette",
+        "description": "Crusty French baguette, stone baked.",
+        "images": [
+          "https://example.com/images/baguette.jpg",
+          "https://example.com/images/baguette_slice.jpg",
+          "https://example.com/images/baguette_loaf.jpg"
+        ],
         "price": 2.79,
-        "img": "https://example.com/images/baguette.jpg",
-        "features": [
-          "Crusty exterior",
-          "Soft interior",
-          "Traditional French",
-          "20-inch loaf",
-          "Stone-baked"
-        ]
+        "unit": "loaf",
+        "quantity": 1,
+        "features": ["20-inch loaf", "Soft interior", "Traditional recipe"]
       },
       {
         "id": 7,
         "name": "Cake",
+        "description": "Rich chocolate fudge cake, 8-inch.",
+        "images": [
+          "https://example.com/images/cake.jpg",
+          "https://example.com/images/cake_slice.jpg",
+          "https://example.com/images/cake_full.jpg"
+        ],
         "price": 9.99,
-        "img": "https://example.com/images/cake.jpg",
-        "features": [
-          "Chocolate fudge",
-          "Rich ganache",
-          "8-inch round",
-          "Serves eight",
-          "Made to order"
-        ]
+        "unit": "cake",
+        "quantity": 1,
+        "features": ["Ganache topping", "Serves 8", "Made to order"]
       },
       {
         "id": 8,
         "name": "Pie",
+        "description": "Classic apple pie with buttery crust.",
+        "images": [
+          "https://example.com/images/pie.jpg",
+          "https://example.com/images/pie_slice.jpg",
+          "https://example.com/images/pie_whole.jpg"
+        ],
         "price": 7.49,
-        "img": "https://example.com/images/pie.jpg",
-        "features": [
-          "Apple filling",
-          "Buttery crust",
-          "9-inch pie",
-          "Cinnamon spiced",
-          "Hand-crimped"
-        ]
+        "unit": "pie",
+        "quantity": 1,
+        "features": ["9-inch", "Cinnamon spiced", "Hand crimped"]
       }
     ],
+
     "Meat": [
       {
         "id": 1,
         "name": "Chicken Breast",
+        "description": "Lean, boneless, skinless chicken breast.",
+        "images": [
+          "https://example.com/images/chicken_breast.jpg",
+          "https://example.com/images/chicken_breast_pack.jpg",
+          "https://example.com/images/chicken_breast_cooked.jpg"
+        ],
         "price": 5.99,
-        "img": "https://example.com/images/chicken_breast.jpg",
-        "features": [
-          "Skinless boneless",
-          "Lean protein",
-          "Air-chilled",
-          "Individually sealed",
-          "Free-range"
-        ]
+        "unit": "lb",
+        "quantity": 1,
+        "features": ["Free-range", "Air chilled", "Individually sealed"]
       },
       {
         "id": 2,
         "name": "Beef Steak",
+        "description": "USDA Choice ribeye, well-marbled.",
+        "images": [
+          "https://example.com/images/beef_steak.jpg",
+          "https://example.com/images/beef_steak_raw.jpg",
+          "https://example.com/images/beef_steak_cooked.jpg"
+        ],
         "price": 9.99,
-        "img": "https://example.com/images/beef_steak.jpg",
-        "features": [
-          "Ribeye cut",
-          "Grain-fed",
-          "Marbled fat",
-          "USDA Choice",
-          "12-oz portion"
-        ]
+        "unit": "12 oz",
+        "quantity": 1,
+        "features": ["Grain-fed", "Rich flavor", "Tender cut"]
       },
       {
         "id": 3,
         "name": "Bacon",
+        "description": "Applewood-smoked thick-cut bacon.",
+        "images": [
+          "https://example.com/images/bacon.jpg",
+          "https://example.com/images/bacon_pack.jpg",
+          "https://example.com/images/bacon_cooked.jpg"
+        ],
         "price": 4.49,
-        "img": "https://example.com/images/bacon.jpg",
-        "features": [
-          "Applewood smoked",
-          "Thick cut",
-          "Cured pork",
-          "No MSG",
-          "12-slice pack"
-        ]
+        "unit": "pack",
+        "quantity": 1,
+        "features": ["12 slices", "No MSG", "Smoked flavor"]
       },
       {
         "id": 4,
         "name": "Pork Chop",
+        "description": "Center-cut bone-in pork chop.",
+        "images": [
+          "https://example.com/images/pork_chop.jpg",
+          "https://example.com/images/pork_chop_raw.jpg",
+          "https://example.com/images/pork_chop_cooked.jpg"
+        ],
         "price": 5.49,
-        "img": "https://example.com/images/pork_chop.jpg",
-        "features": [
-          "Center cut",
-          "Bone-in",
-          "Tender texture",
-          "No added hormones",
-          "Vacuum packed"
-        ]
+        "unit": "lb",
+        "quantity": 1,
+        "features": ["No added hormones", "Tender texture", "Vacuum packed"]
       },
       {
         "id": 5,
         "name": "Turkey",
+        "description": "93% lean ground turkey.",
+        "images": [
+          "https://example.com/images/turkey.jpg",
+          "https://example.com/images/turkey_pack.jpg",
+          "https://example.com/images/turkey_cooked.jpg"
+        ],
         "price": 6.99,
-        "img": "https://example.com/images/turkey.jpg",
-        "features": [
-          "Ground turkey",
-          "93% lean",
-          "All natural",
-          "Versatile cooking",
-          "1-lb pack"
-        ]
+        "unit": "lb",
+        "quantity": 1,
+        "features": ["All natural", "Versatile", "1-lb pack"]
       },
       {
         "id": 6,
         "name": "Lamb",
+        "description": "Grass-fed loin lamb chops.",
+        "images": [
+          "https://example.com/images/lamb.jpg",
+          "https://example.com/images/lamb_raw.jpg",
+          "https://example.com/images/lamb_cooked.jpg"
+        ],
         "price": 8.99,
-        "img": "https://example.com/images/lamb.jpg",
-        "features": [
-          "Loin chops",
-          "Grass-fed",
-          "Rich flavor",
-          "4-pack",
-          "New Zealand origin"
-        ]
+        "unit": "lb",
+        "quantity": 1,
+        "features": ["Rich flavor", "New Zealand origin", "4-pack"]
       },
       {
         "id": 7,
         "name": "Ham",
+        "description": "Honey-glazed boneless smoked ham.",
+        "images": [
+          "https://example.com/images/ham.jpg",
+          "https://example.com/images/ham_slice.jpg",
+          "https://example.com/images/ham_pack.jpg"
+        ],
         "price": 4.99,
-        "img": "https://example.com/images/ham.jpg",
-        "features": [
-          "Honey glazed",
-          "Smoked ham",
-          "Boneless",
-          "Pre-sliced",
-          "Family-size"
-        ]
+        "unit": "lb",
+        "quantity": 1,
+        "features": ["Pre-sliced", "Family size", "Smoked"]
       },
       {
         "id": 8,
         "name": "Sausage",
+        "description": "Mild Italian pork sausages.",
+        "images": [
+          "https://example.com/images/sausage.jpg",
+          "https://example.com/images/sausage_pack.jpg",
+          "https://example.com/images/sausage_cooked.jpg"
+        ],
         "price": 3.99,
-        "img": "https://example.com/images/sausage.jpg",
-        "features": [
-          "Italian mild",
-          "Pork casing",
-          "Herb seasoning",
-          "Six links",
-          "No nitrates added"
-        ]
+        "unit": "pack",
+        "quantity": 1,
+        "features": ["Six links", "Herb seasoned", "No nitrates"]
       }
     ]
   }

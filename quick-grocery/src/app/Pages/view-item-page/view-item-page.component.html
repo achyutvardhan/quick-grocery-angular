@@ -1,0 +1,73 @@
+<section class="product-page">
+    <div class="container">
+      <div class="breadcrumb">
+        <a [routerLink]="['/']">Home</a> &gt; <a [routerLink]="['/ourProduct',this.category]">{{this.category}}</a> &gt; <span>{{this.name}}</span>
+      </div>
+
+      <div class="product-detail">
+        <div class="product-gallery">
+          <div class="main-image">
+            <img
+              src={{this.selectedImg}}
+              alt="Fresh Organic Apples">
+          </div>
+          <div class="thumbnail-images">
+            <!-- <img
+              src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              alt="Apple Close Up" class="selected">
+            <img
+              src="https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              alt="Apple Slices"> -->
+            <img *ngFor="let img of items.images"
+              src={{img}}
+              alt="Apple Tree"  (click)="onClickHandler(img)" >
+          </div>
+        </div>
+
+        <div class="product-info-detail">
+          <!-- <div class="badge product-badge">Organic</div> -->
+          <h1>{{items.name}}</h1>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-count">(127 reviews)</span>
+          </div>
+          <p class="product-price">${{items.price}} <span class="unit">per {{items.unit}}</span></p>
+
+          <div class="product-description">
+            <p>{{items.description}}</p>
+
+            <div class="product-features">
+              <h3>Product Features:</h3>
+              <ul>
+                <li *ngFor="let item of items.features" >{{item}}</li>
+                
+              </ul>
+            </div>
+          </div>
+
+          <div class="product-purchase">
+            <div class="quantity">
+              <label>Quantity:</label>
+              <div class="quantity-selector">
+                <button class="qty-btn">-</button>
+                <input type="text" value={{items.quantity}} class="qty-input">
+                <button class="qty-btn">+</button>
+              </div>
+              <span class="stock">In Stock</span>
+            </div>
+
+            <div class="product-actions">
+              <button class="btn btn-large">Add to Cart</button>
+              <button class="wishlist-btn">❤</button>
+            </div>
+          </div>
+
+          <div class="delivery-info">
+            <p><strong>Delivery:</strong> Free delivery on orders over $50</p>
+            <p><strong>Availability:</strong> Usually ships within 24 hours</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      </section>
+

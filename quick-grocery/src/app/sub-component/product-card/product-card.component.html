@@ -1,13 +1,13 @@
 <div class="product-card" >
     <div class="product-image">
-        <img src={{itemsObj.image}}
+        <img [src]="itemsObj.images[0]"
             alt="Fresh Organic Apples">
         <span class="badge">Organic</span>
     </div>
     <div class="product-info">
         <h3>{{itemsObj.name}}</h3>
-        <p class="price">${{itemsObj.price}} <span>per lb</span></p>
+        <p class="price">${{itemsObj.price}} <span>per {{itemsObj.unit}}</span></p>
         <p class="category">{{itemsObj.category}}</p>
-        <a href="#" class="btn btn-small">Add to Cart</a>
+        <a [routerLink]="['/view-item', itemsObj.category , itemsObj.name ]" class="btn btn-small">Add to Cart</a>
     </div>
 </div>

@@ -12,7 +12,7 @@
             </ul>
         </div>
         <div class="product-grid">
-            <app-product-card *ngFor="let item of product" [itemsObj]="item" />
+            <app-product-card *ngFor="let item of product" [itemsObj]="item" [routerLink]="['/view-item' , item.category , item.name]"  />
         </div>
     </div>
 </section>
