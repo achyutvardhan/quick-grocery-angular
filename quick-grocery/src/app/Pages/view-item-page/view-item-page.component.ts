@@ -45,10 +45,11 @@ export class ViewItemPageComponent implements OnInit {
    onClickAddToCart = ()=>{
      const item = {
        name: this.items.name,
-       price: this.items.price * this.items.quantity,
+       price: this.items.price ,
        description: this.items.description,
        image: this.items.images[0],
        quantity: this.items.quantity || 1,
+       unit : this.items.unit,
      };
     this.cartService.findAndUpdate(item);
    }

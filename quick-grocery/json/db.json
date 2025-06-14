@@ -57,11 +57,22 @@
   ],
   "cartItem": [
     {
-      "id": "ffa8",
-      "name": "Broccoli",
-      "price": 5.16,
-      "image": "https://example.com/images/broccoli.jpg",
-      "quantity": 4
+      "id": "d0dd",
+      "name": "Croissant",
+      "price": 2.19,
+      "description": "Flaky, butter-rich French pastry.",
+      "image": "https://example.com/images/croissant.jpg",
+      "quantity": 1,
+      "unit": "each"
+    },
+    {
+      "id": "0989",
+      "name": "Apple",
+      "price": 0.99,
+      "description": "Crisp, juicy, and rich in fiber.",
+      "image": "https://example.com/images/apple.jpg",
+      "quantity": 5,
+      "unit": "each"
     }
   ],
   "product": {

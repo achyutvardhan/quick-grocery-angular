@@ -1082,6 +1082,10 @@ nav ul li a:hover .fa-shopping-cart {
   max-width: 1200px;
   margin: 0 auto;
 }
+#cpSummary{
+  position: sticky;
+  top: 110px;
+}
 
 .cp-items {
   order: 2;
@@ -1324,4 +1328,87 @@ nav ul li a:hover .fa-shopping-cart {
   .wishlist-btn {
     align-self: flex-start;
   }
+}
+
+
+.cp-card {
+    background: #f6fff6;
+    border: 1px solid #b2e5b2;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #e0ffe0;
+    padding: 18px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+.cp-card-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 18px;
+    background: #eaffea;
+}
+.cp-card-details {
+    flex: 1;
+}
+.cp-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #388e3c;
+    margin-bottom: 6px;
+}
+.cp-price {
+    color: #43a047;
+    font-weight: bold;
+}
+.cp-unit {
+    color: #81c784;
+    margin-left: 4px;
+}
+.cp-qty-group {
+    display: inline-flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.cp-qty-btn {
+    background: #b9f6ca;
+    border: none;
+    color: #2e7d32;
+    font-size: 1.2em;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 4px;
+    transition: background 0.2s;
+}
+.cp-qty-btn:hover {
+    background: #69f0ae;
+}
+.cp-qty-input {
+    width: 48px;
+    text-align: center;
+    border: 1px solid #b2e5b2;
+    border-radius: 6px;
+    padding: 4px;
+    background: #fff;
+    color: #388e3c;
+    margin: 0 4px;
+}
+.cp-remove {
+    color: #e57373;
+    cursor: pointer;
+    margin-left: 16px;
+    font-size: 0.95em;
+}
+.cp-subtotal {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2e7d32;
+    background: #eaffea;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-block;
 }

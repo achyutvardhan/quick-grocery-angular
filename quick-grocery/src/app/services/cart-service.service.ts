@@ -1,49 +1,104 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-import { HttpClient ,HttpHeaders } from '@angular/common/http';
+import { Observable, BehaviorSubject } from 'rxjs';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { tap } from 'rxjs/operators';
+
 @Injectable({
   providedIn: 'root'
 })
 export class CartServiceService {
   private apiUrl = 'http://localhost:3000/cartItem';
   private httpOptions = {
-      headers: new HttpHeaders({ 'Content-Type': 'application/json' })
-   };
-  constructor(private http :HttpClient) { }
+    headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  };
 
-  getCartItem():Observable<any>{
-    return this.http.get<any>(this.apiUrl);
+  private cartItemsSource = new BehaviorSubject<any[]>([]);
+  cartItems$ = this.cartItemsSource.asObservable();
+
+  constructor(private http: HttpClient) {
+    this.loadInitialCart();
+  }
+
+  private loadInitialCart() {
+    this.http.get<any[]>(this.apiUrl).subscribe({
+      next: (items) => this.cartItemsSource.next(items || []),
+      error: (err) => {
+        console.error('Error loading initial cart:', err);
+        this.cartItemsSource.next([]); 
+      }
+    });
+  }
+
+  getCartItem(): Observable<any[]> {
+    return this.cartItems$;
   }
 
 
-  findAndUpdate(item: any) {
-    this.getCartItem().subscribe((data) => {
-      const itemsArray = Array.isArray(data) ? data : [];
-      const product = itemsArray.find((dataItem: any) => dataItem.name === item.name);
+  private refreshCart() {
+    return this.http.get<any[]>(this.apiUrl).pipe(
+      tap(items => this.cartItemsSource.next(items || []))
+    );
+  }
+
+  findAndUpdate(item: any) { 
+    this.http.get<any[]>(`${this.apiUrl}?name=${item.name}`).subscribe(existingItems => {
+      const product = existingItems.length > 0 ? existingItems[0] : null;
       if (product) {
         product.quantity += item.quantity;
-        product.price += item.price;
         this.http.put<any>(`${this.apiUrl}/${product.id}`, product, this.httpOptions)
           .subscribe({
-            next: (res) => { console.log('Updated:', res); console.log(res.id) },
-            error: (err) => console.error('Error:', err),
-            complete: () => console.log('Item updated in cart')
+            next: (res) => {
+              console.log('Updated:', res);
+              this.refreshCart().subscribe();
+            },
+            error: (err) => console.error('Error updating item:', err),
           });
       } else {
-
         this.http.post<any>(this.apiUrl, item, this.httpOptions)
           .subscribe({
-            next: (res) => console.log('Success:', res),
-            error: (err) => console.error('Error:', err),
-            complete: () => console.log('Item added into cart')
+            next: (res) => {
+              console.log('Added:', res);
+              this.refreshCart().subscribe();
+            },
+            error: (err) => console.error('Error adding item:', err),
           });
       }
     });
   }
 
-  // deleteItem(item: any): Observable<any> {
-  //   return this.http.delete<any>(this.apiUrl, this.httpOptions);
-  // }
+  findAndUpdateCart(item: any) { 
+    if (item.id) {
+      this.http.put<any>(`${this.apiUrl}/${item.id}`, item, this.httpOptions)
+        .subscribe({
+          next: (res) => {
+            console.log('Cart Updated:', res);
+            this.refreshCart().subscribe();
+          },
+          error: (err) => console.error('Error updating cart item:', err),
+        });
+    } else { 
+        this.http.get<any[]>(`${this.apiUrl}?name=${item.name}`).subscribe(existingItems => {
+            const product = existingItems.length > 0 ? existingItems[0] : null;
+            if (product) {
+                product.quantity = item.quantity;
+                 this.http.put<any>(`${this.apiUrl}/${product.id}`, product, this.httpOptions)
+                .subscribe({
+                    next: (res) => {
+                        console.log('Cart Updated (fallback):', res);
+                        this.refreshCart().subscribe();
+                    },
+                    error: (err) => console.error('Error updating cart item (fallback):', err),
+                });
+            }
+        });
+    }
+  }
 
-   
+  deleItemFromCart(id: number): Observable<any> {
+    return this.http.delete<any>(`${this.apiUrl}/${id}`, this.httpOptions).pipe(
+      tap(() => {
+        this.refreshCart().subscribe();
+      })
+    );
+  }
 }
