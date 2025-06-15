@@ -1,1 +1,20 @@
-<h1>Add to Cart Section</h1>
+<div class="cp-wrapper">
+    <div class="cp-checkout">
+
+        <!-- Order Summary -->
+        <aside class="cp-summary" id="cpSummary">
+            <h2>Order Summary</h2>
+            <div class="cp-summary-row"><span>Items (<span id="cpCount">{{cartItems.length}}</span>)</span><span id="cpSub">${{subTotal}}</span>
+            </div>
+            <div class="cp-summary-row"><span>Delivery</span><span id="cpDelivery">$3.50</span></div>
+            <div class="cp-summary-row cp-total"><span>Total</span><span id="cpGrand">${{subTotal + 3.5}}</span></div>
+            <button class="cp-btn">Proceed to Buy</button>
+        </aside>
+
+        <!-- Cart Items -->
+        <section class="cp-items" id="cpItemList">
+            <app-add-to-cart-card *ngFor="let item of cartItems" [itemObj3]="item" />
+            
+        </section>
+    </div>
+</div>

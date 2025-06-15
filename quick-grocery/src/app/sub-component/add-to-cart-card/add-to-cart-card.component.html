@@ -1,0 +1,22 @@
+<article class="cp-card" data-price="2.49">
+    <img src="{{itemObj3.image}}" alt="Apples" class="cp-card-img">
+    <div class="cp-card-details">
+        <div class="cp-title">{{itemObj3.name}}</div>
+        <div>
+            <span class="cp-price">${{itemObj3.price}}</span>
+            <span class="cp-unit">/ {{itemObj3.unit}}</span>
+        </div>
+        <div>
+            <div class="cp-qty-group">
+                <button class="cp-qty-btn" (click)="onClickSub()">−</button>
+                <input type="number" min="1" [value]="itemObj3.quantity" class="cp-qty-input">
+                <button class="cp-qty-btn" (click)="onclickAdd()" >+</button>
+            </div>
+            <span class="cp-remove" (click)="onClickDelete()" >Remove</span>
+        </div>
+        <div class="cp-subtotal">
+            Subtotal: <span>${{itemObj3.price * itemObj3.quantity | number:'1.2-2'}}</span>
+        </div>
+    </div>
+</article>
+
