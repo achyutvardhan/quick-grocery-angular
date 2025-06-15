@@ -1,0 +1,21 @@
+<div class="product-catalogue">
+    <div class="container">
+        <div class="related-products">
+            <h2>You May Also Like</h2>
+            <div class="product-grid small-grid">
+                <div class="product-card" *ngFor="let item of relatedProducts">
+                    <div class="product-image">
+                        <img [src]="item.images[0]" [alt]="item.name">
+                        <span *ngIf="item.badge" class="badge">{{item.badge}}</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>{{item.name}}</h3>
+                        <p class="price">${{item.price}} <span>{{item.unit}}</span></p>
+                        <a href="#" class="btn btn-small">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

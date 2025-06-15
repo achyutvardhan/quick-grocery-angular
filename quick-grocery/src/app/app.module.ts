@@ -16,6 +16,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { SpecialOfferModule } from './Module/special-offer.module';
 import { ViewItemPageComponent } from './Pages/view-item-page/view-item-page.component';
 import { ProfileModule } from './Module/profile.module';
+import { YouMayAlsoLikeComponent } from './you-may-also-like/you-may-also-like.component';
 
 
 
@@ -28,7 +29,8 @@ import { ProfileModule } from './Module/profile.module';
     CategoryCardComponent,
     AppPromotionSectionComponent,
     HomeComponent,
-    ViewItemPageComponent
+    ViewItemPageComponent,
+    YouMayAlsoLikeComponent
   ],
   imports: [
     BrowserModule,
