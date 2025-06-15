@@ -1,7 +1,7 @@
 {
   "blog": [
     {
-      "id": 1,
+      "id": "1",
       "title": "10 Superfoods to Boost Your Immunity",
       "date": "May 5, 2025",
       "excerpt": "Discover the power of these amazing foods that can help strengthen your immune system naturally.",
@@ -10,7 +10,7 @@
       "link": "#"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Easy Ways to Include More Vegetables in Your Diet",
       "date": "May 2, 2025",
       "excerpt": "Simple tips and tricks to incorporate more vegetables into your daily meals without sacrificing flavor.",
@@ -19,7 +19,7 @@
       "link": "#"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Sustainable Grocery Shopping Guide",
       "date": "April 27, 2025",
       "excerpt": "Learn how to make eco-friendly choices when shopping for groceries and reduce your environmental impact.",
@@ -28,7 +28,7 @@
       "link": "#"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Weekend Meal Prep: Save Time and Eat Healthy",
       "date": "April 20, 2025",
       "excerpt": "A complete guide to efficient meal preparation that will save you time during the busy week.",
@@ -37,7 +37,7 @@
       "link": "#"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Seasonal Fruits: Why They're Better for You and the Planet",
       "date": "April 15, 2025",
       "excerpt": "The benefits of choosing seasonal produce and a handy guide to what's in season now.",
@@ -46,7 +46,7 @@
       "link": "#"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Beginner's Guide to Baking Your Own Bread",
       "date": "April 10, 2025",
       "excerpt": "Simple recipes and techniques to help you start making delicious homemade bread.",
@@ -57,22 +57,22 @@
   ],
   "cartItem": [
     {
-      "id": "d0dd",
-      "name": "Croissant",
-      "price": 2.19,
-      "description": "Flaky, butter-rich French pastry.",
-      "image": "https://example.com/images/croissant.jpg",
-      "quantity": 1,
-      "unit": "each"
-    },
-    {
       "id": "0989",
       "name": "Apple",
       "price": 0.99,
       "description": "Crisp, juicy, and rich in fiber.",
       "image": "https://example.com/images/apple.jpg",
-      "quantity": 5,
+      "quantity": 13,
       "unit": "each"
+    },
+    {
+      "id": "3a5f",
+      "name": "Beef Steak",
+      "price": 9.99,
+      "description": "USDA Choice ribeye, well-marbled.",
+      "image": "https://example.com/images/beef_steak.jpg",
+      "quantity": 1,
+      "unit": "12 oz"
     }
   ],
   "product": {

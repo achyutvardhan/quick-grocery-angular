@@ -35,9 +35,8 @@ export class CartServiceService {
 
 
   private refreshCart() {
-    return this.http.get<any[]>(this.apiUrl).pipe(
-      tap(items => this.cartItemsSource.next(items || []))
-    );
+    return this.http.get<any[]>(this.apiUrl).subscribe(items => this.cartItemsSource.next(items || []))
+    ;
   }
 
   findAndUpdate(item: any) { 
@@ -49,7 +48,7 @@ export class CartServiceService {
           .subscribe({
             next: (res) => {
               console.log('Updated:', res);
-              this.refreshCart().subscribe();
+              this.refreshCart();
             },
             error: (err) => console.error('Error updating item:', err),
           });
@@ -58,7 +57,7 @@ export class CartServiceService {
           .subscribe({
             next: (res) => {
               console.log('Added:', res);
-              this.refreshCart().subscribe();
+              this.refreshCart();
             },
             error: (err) => console.error('Error adding item:', err),
           });
@@ -72,7 +71,7 @@ export class CartServiceService {
         .subscribe({
           next: (res) => {
             console.log('Cart Updated:', res);
-            this.refreshCart().subscribe();
+            this.refreshCart();
           },
           error: (err) => console.error('Error updating cart item:', err),
         });
@@ -85,7 +84,7 @@ export class CartServiceService {
                 .subscribe({
                     next: (res) => {
                         console.log('Cart Updated (fallback):', res);
-                        this.refreshCart().subscribe();
+                        this.refreshCart();
                     },
                     error: (err) => console.error('Error updating cart item (fallback):', err),
                 });
@@ -97,7 +96,7 @@ export class CartServiceService {
   deleItemFromCart(id: number): Observable<any> {
     return this.http.delete<any>(`${this.apiUrl}/${id}`, this.httpOptions).pipe(
       tap(() => {
-        this.refreshCart().subscribe();
+        this.refreshCart();
       })
     );
   }
