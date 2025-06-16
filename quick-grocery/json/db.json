@@ -57,22 +57,31 @@
   ],
   "cartItem": [
     {
-      "id": "0989",
-      "name": "Apple",
-      "price": 0.99,
-      "description": "Crisp, juicy, and rich in fiber.",
-      "image": "https://example.com/images/apple.jpg",
-      "quantity": 13,
+      "id": "f4f3",
+      "name": "Banana",
+      "price": 0.59,
+      "description": "Naturally sweet and potassium-rich.",
+      "image": "https://images.freeimages.com/images/large-previews/360/banana-1-1330048.jpg?fmt=webp&h=350",
+      "quantity": 20,
       "unit": "each"
     },
     {
-      "id": "3a5f",
-      "name": "Beef Steak",
-      "price": 9.99,
-      "description": "USDA Choice ribeye, well-marbled.",
-      "image": "https://example.com/images/beef_steak.jpg",
+      "id": "dfde",
+      "name": "Apple",
+      "price": 0.99,
+      "description": "Crisp, juicy, and rich in fiber.",
+      "image": "https://cdn.stocksnap.io/img-thumbs/960w/fresh-apple_KNCHMWUOR0.jpg",
       "quantity": 1,
-      "unit": "12 oz"
+      "unit": "each"
+    },
+    {
+      "id": "a7a3",
+      "name": "Strawberry",
+      "price": 2.99,
+      "description": "Sweet berries packed with antioxidants.",
+      "image": "https://burst.shopifycdn.com/photos/ripe-red-strawberries-in-a-white-bowl.jpg?width=373&format=pjpg&exif=0&iptc=0",
+      "quantity": 1,
+      "unit": "1 lb"
     }
   ],
   "product": {
@@ -82,9 +91,9 @@
         "name": "Apple",
         "description": "Crisp, juicy, and rich in fiber.",
         "images": [
-          "https://example.com/images/apple.jpg",
-          "https://example.com/images/apple_side.jpg",
-          "https://example.com/images/apple_sliced.jpg"
+          "https://cdn.stocksnap.io/img-thumbs/960w/fresh-apple_KNCHMWUOR0.jpg",
+          "https://cdn.stocksnap.io/img-thumbs/960w/hand-apple_BQATCHSOHR.jpg",
+          "https://cdn.stocksnap.io/img-thumbs/960w/red-apple_VXET3VQIV3.jpg"
         ],
         "price": 0.99,
         "unit": "each",
@@ -100,9 +109,9 @@
         "name": "Banana",
         "description": "Naturally sweet and potassium-rich.",
         "images": [
-          "https://example.com/images/banana.jpg",
-          "https://example.com/images/banana_bunch.jpg",
-          "https://example.com/images/banana_peeled.jpg"
+          "https://images.freeimages.com/images/large-previews/360/banana-1-1330048.jpg?fmt=webp&h=350",
+          "https://cdn.stocksnap.io/img-thumbs/960w/bananas-fruits_D0C5D92CD9.jpg",
+          "https://media.istockphoto.com/id/1214191768/photo/banana-on-the-wooden-background-top-view.jpg?s=612x612&w=0&k=20&c=mNAMpDWwdT_Wv-Jzq3bIiY9CQE6pHNx3V7dsNPXi_mY="
         ],
         "price": 0.59,
         "unit": "each",
@@ -118,9 +127,9 @@
         "name": "Strawberry",
         "description": "Sweet berries packed with antioxidants.",
         "images": [
-          "https://example.com/images/strawberry.jpg",
-          "https://example.com/images/strawberry_basket.jpg",
-          "https://example.com/images/strawberry_closeup.jpg"
+          "https://burst.shopifycdn.com/photos/ripe-red-strawberries-in-a-white-bowl.jpg?width=373&format=pjpg&exif=0&iptc=0",
+          "https://burst.shopifycdn.com/photos/hidden-strawberry.jpg?width=373&format=pjpg&exif=0&iptc=0",
+          "https://burst.shopifycdn.com/photos/dropped-strawberries.jpg?width=373&format=pjpg&exif=0&iptc=0"
         ],
         "price": 2.99,
         "unit": "1 lb",
@@ -136,9 +145,9 @@
         "name": "Orange",
         "description": "Juicy citrus rich in vitamin C.",
         "images": [
-          "https://example.com/images/orange.jpg",
-          "https://example.com/images/orange_halved.jpg",
-          "https://example.com/images/orange_segments.jpg"
+          "https://images.freeimages.com/images/large-previews/f0d/juicy-oranges-1325676.jpg?fmt=webp&h=350",
+          "https://images.freeimages.com/images/large-previews/f40/oranges-1325500.jpg?fmt=webp&h=350",
+          "https://images.freeimages.com/images/large-previews/9a1/oranges-at-tree-1325437.jpg?fmt=webp&h=350"
         ],
         "price": 1.19,
         "unit": "each",
@@ -154,9 +163,9 @@
         "name": "Grape",
         "description": "Seedless, sweet-tart snack grapes.",
         "images": [
-          "https://example.com/images/grape.jpg",
-          "https://example.com/images/grape_bunch.jpg",
-          "https://example.com/images/grape_close.jpg"
+          "https://images.freeimages.com/images/large-previews/a27/grape-wine-1327179.jpg?fmt=webp&w=500",
+          "https://images.freeimages.com/variants/fGUG36uYpXzdsLXehWfqcBTx/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d?fmt=webp&w=500",
+          "https://images.freeimages.com/images/large-previews/80c/basket-of-grapes-3-1326154.jpg?fmt=webp&w=500"
         ],
         "price": 2.49,
         "unit": "1 lb",
@@ -172,9 +181,9 @@
         "name": "Mango",
         "description": "Tropical fruit with creamy flesh.",
         "images": [
-          "https://example.com/images/mango.jpg",
-          "https://example.com/images/mango_cut.jpg",
-          "https://example.com/images/mango_side.jpg"
+          "https://images.freeimages.com/variants/Ttv3Ms3YrFVjV2D6UcAj8En9/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d?fmt=webp&w=500",
+          "https://images.freeimages.com/images/large-previews/1fb/mangos-2-1183946.jpg?fmt=webp&h=350",
+          "https://media.istockphoto.com/id/2154101350/photo/fresh-mango-tropical-fruit-with-green-leaf-ripe-mango-in-grass.webp?b=1&s=612x612&w=0&k=20&c=MdaOENFdHovKJ0tuvajmm1p5od8rW3802JSRnl_tQBc="
         ],
         "price": 1.79,
         "unit": "each",
@@ -190,9 +199,9 @@
         "name": "Pineapple",
         "description": "Sweet-tart fruit, crown intact.",
         "images": [
-          "https://example.com/images/pineapple.jpg",
-          "https://example.com/images/pineapple_sliced.jpg",
-          "https://example.com/images/pineapple_ring.jpg"
+          "https://images.freeimages.com/images/large-previews/4ea/pineapple-1324089.jpg?fmt=webp&w=500",
+          "https://images.freeimages.com/variants/82GtRvUcn2uki1XYjf8YHL4d/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d?fmt=webp&w=500",
+          "https://media.istockphoto.com/id/185263471/photo/pineapple.webp?b=1&s=612x612&w=0&k=20&c=rDKl9cScvGVilR1SyCvj5h5_ERRXFYPqB812NtFoe18="
         ],
         "price": 3.29,
         "unit": "each",
@@ -208,9 +217,9 @@
         "name": "Blueberry",
         "description": "Tiny berries bursting with flavor.",
         "images": [
-          "https://example.com/images/blueberry.jpg",
-          "https://example.com/images/blueberry_bowl.jpg",
-          "https://example.com/images/blueberry_close.jpg"
+          "https://images.freeimages.com/images/large-previews/c5d/blueberries-1323372.jpg?fmt=webp&w=500",
+          "https://images.freeimages.com/variants/MQUJHnVXoCmQvewbxVRiYC4M/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d?fmt=webp&w=500",
+          "https://media.istockphoto.com/id/171314137/photo/blueberries-ready-for-picking.webp?b=1&s=612x612&w=0&k=20&c=ljcJ_qlaKpAyn9RgLbU58yFETKPd_PulvGrDNQOieIY="
         ],
         "price": 3.49,
         "unit": "1 pint",

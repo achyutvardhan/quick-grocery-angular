@@ -11,15 +11,11 @@ import { ContactModule } from './Module/contact.module';
 import { AppPromotionSectionComponent } from './app-promotion-section/app-promotion-section.component';
 import { HomeComponent } from './home/home.component';
 import { NavigationModule } from './Module/navigation.module';
-import { AddToCartComponent } from './Pages/add-to-cart/add-to-cart.component';
 import {HttpClientModule} from '@angular/common/http';
 import { SpecialOfferModule } from './Module/special-offer.module';
 import { ViewItemPageComponent } from './Pages/view-item-page/view-item-page.component';
 import { ProfileModule } from './Module/profile.module';
 import { YouMayAlsoLikeComponent } from './you-may-also-like/you-may-also-like.component';
-
-
-
 
 @NgModule({
   declarations: [
@@ -46,4 +42,5 @@ import { YouMayAlsoLikeComponent } from './you-may-also-like/you-may-also-like.c
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+ }
