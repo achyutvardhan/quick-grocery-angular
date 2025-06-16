@@ -71,8 +71,17 @@
       "price": 9.99,
       "description": "USDA Choice ribeye, well-marbled.",
       "image": "https://example.com/images/beef_steak.jpg",
-      "quantity": 1,
+      "quantity": 4,
       "unit": "12 oz"
+    },
+    {
+      "id": "c835",
+      "name": "Banana",
+      "price": 0.59,
+      "description": "Naturally sweet and potassium-rich.",
+      "image": "https://example.com/images/banana.jpg",
+      "quantity": 1,
+      "unit": "each"
     }
   ],
   "product": {
