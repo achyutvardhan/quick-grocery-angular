@@ -62,7 +62,7 @@
       "price": 0.99,
       "description": "Crisp, juicy, and rich in fiber.",
       "image": "https://cdn.stocksnap.io/img-thumbs/960w/fresh-apple_KNCHMWUOR0.jpg",
-      "quantity": 9,
+      "quantity": 12,
       "unit": "each"
     },
     {
@@ -79,8 +79,8 @@
       "name": "Broccoli",
       "price": 1.29,
       "description": "Tender green florets, vitamin K rich.",
-      "image": "https://example.com/images/broccoli.jpg",
-      "quantity": 4,
+      "image": "https://images.unsplash.com/photo-1628773822503-930a7eaecf80?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": 3,
       "unit": "each"
     }
   ],
