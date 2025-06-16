@@ -237,9 +237,9 @@
         "name": "Carrot",
         "description": "Crunchy orange roots full of beta-carotene.",
         "images": [
-          "https://example.com/images/carrot.jpg",
-          "https://example.com/images/carrot_bunch.jpg",
-          "https://example.com/images/carrot_sliced.jpg"
+          "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1590868309235-ea34bed7bd7f?q=80&w=1227&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1636743714964-344d608214cd?q=80&w=985&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "price": 0.79,
         "unit": "each",
@@ -255,9 +255,9 @@
         "name": "Broccoli",
         "description": "Tender green florets, vitamin K rich.",
         "images": [
-          "https://example.com/images/broccoli.jpg",
-          "https://example.com/images/broccoli_florets.jpg",
-          "https://example.com/images/broccoli_steamed.jpg"
+          "https://images.unsplash.com/photo-1628773822503-930a7eaecf80?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1587351177732-5b0739d1bd44?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1518164147695-36c13dd568f5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnJvY29sbGl8ZW58MHx8MHx8fDI%3D"
         ],
         "price": 1.29,
         "unit": "each",
@@ -273,9 +273,9 @@
         "name": "Spinach",
         "description": "Baby leaves, iron-rich and ready to eat.",
         "images": [
-          "https://example.com/images/spinach.jpg",
-          "https://example.com/images/spinach_leaves.jpg",
-          "https://example.com/images/spinach_salad.jpg"
+          "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BpbmFjaHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1580910365203-91ea9115a319?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BpbmFjaHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1574316071802-0d684efa7bf5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3BpbmFjaHxlbnwwfHwwfHx8Mg%3D%3D"
         ],
         "price": 1.99,
         "unit": "bag",
@@ -291,9 +291,9 @@
         "name": "Tomato",
         "description": "Juicy vine-ripened tomatoes.",
         "images": [
-          "https://example.com/images/tomato.jpg",
-          "https://example.com/images/tomato_slice.jpg",
-          "https://example.com/images/tomato_vine.jpg"
+          "https://images.unsplash.com/photo-1517666005606-69dea9b54865?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1501645963220-a20faa7494ba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://plus.unsplash.com/premium_photo-1725467481377-413f5e6a1fe2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "price": 0.89,
         "unit": "each",
@@ -309,9 +309,9 @@
         "name": "Potato",
         "description": "Starchy russet, ideal for baking.",
         "images": [
-          "https://example.com/images/potato.jpg",
-          "https://example.com/images/potato_cut.jpg",
-          "https://example.com/images/potato_bag.jpg"
+          "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1508313880080-c4bef0730395?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1635774855536-9728f2610245?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "price": 0.49,
         "unit": "each",
@@ -327,9 +327,9 @@
         "name": "Onion",
         "description": "Pungent yellow onion with long shelf life.",
         "images": [
-          "https://example.com/images/onion.jpg",
-          "https://example.com/images/onion_cut.jpg",
-          "https://example.com/images/onion_sack.jpg"
+          "https://images.unsplash.com/photo-1611139858470-2dc796805824?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JTIybmFtZSUyMiUzQSUyMCUyMk9uaW9uJTIyJTJDfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1594100585731-c41826948ea8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8JTIybmFtZSUyMiUzQSUyMCUyMk9uaW9uJTIyJTJDfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1636210589073-dc4bef9a5085?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8JTIybmFtZSUyMiUzQSUyMCUyMk9uaW9uJTIyJTJDfGVufDB8fDB8fHwy"
         ],
         "price": 0.39,
         "unit": "each",
@@ -345,9 +345,9 @@
         "name": "Lettuce",
         "description": "Crisp iceberg lettuce, low in calories.",
         "images": [
-          "https://example.com/images/lettuce.jpg",
-          "https://example.com/images/lettuce_head.jpg",
-          "https://example.com/images/lettuce_salad.jpg"
+          "https://images.unsplash.com/photo-1611105637889-3afd7295bdbf?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8JTIybmFtZSUyMiUzQSUyMCUyMkxldHR1Y2UlMjIlMkN8ZW58MHx8MHx8fDA%3D",
+          "https://images.unsplash.com/photo-1612231653032-8a93d1de0834?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8JTIybmFtZSUyMiUzQSUyMCUyMkxldHR1Y2UlMjIlMkN8ZW58MHx8MHx8fDA%3D",
+          "https://images.unsplash.com/photo-1571947457091-ec930f5120dc?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8JTIybmFtZSUyMiUzQSUyMCUyMkxldHR1Y2UlMjIlMkN8ZW58MHx8MHx8fDA%3D"
         ],
         "price": 1.09,
         "unit": "head",
@@ -363,9 +363,9 @@
         "name": "Cucumber",
         "description": "Seedless English cucumber, refreshing crunch.",
         "images": [
-          "https://example.com/images/cucumber.jpg",
-          "https://example.com/images/cucumber_slice.jpg",
-          "https://example.com/images/cucumber_salad.jpg"
+          "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q3VjdW1iZXJ8ZW58MHx8MHx8fDA%3D",
+          "https://images.unsplash.com/photo-1587411768638-ec71f8e33b78?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Q3VjdW1iZXJ8ZW58MHx8MHx8fDA%3D",
+          "https://images.unsplash.com/photo-1568584711271-6c929fb49b60?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEN1Y3VtYmVyfGVufDB8fDB8fHww"
         ],
         "price": 0.99,
         "unit": "each",
@@ -383,9 +383,9 @@
         "name": "Milk",
         "description": "Whole milk, pasteurized and vitamin D fortified.",
         "images": [
-          "https://example.com/images/milk.jpg",
-          "https://example.com/images/milk_glass.jpg",
-          "https://example.com/images/milk_jug.jpg"
+          "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWlsa3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1517448931760-9bf4414148c5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWlsa3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1523473827533-2a64d0d36748?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWlsa3xlbnwwfHwwfHx8Mg%3D%3D"
         ],
         "price": 3.49,
         "unit": "gallon",
@@ -401,9 +401,9 @@
         "name": "Cheese",
         "description": "Sharp cheddar aged 12 months.",
         "images": [
-          "https://example.com/images/cheese.jpg",
-          "https://example.com/images/cheese_block.jpg",
-          "https://example.com/images/cheese_slice.jpg"
+          "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hlZXNlfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1683314573422-649a3c6ad784?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hlZXNlfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1589881133595-a3c085cb731d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2hlZXNlfGVufDB8fDB8fHwy"
         ],
         "price": 4.99,
         "unit": "block",
@@ -419,9 +419,9 @@
         "name": "Yogurt",
         "description": "Greek-style, high-protein plain yogurt.",
         "images": [
-          "https://example.com/images/yogurt.jpg",
-          "https://example.com/images/yogurt_bowl.jpg",
-          "https://example.com/images/yogurt_cup.jpg"
+          "https://images.unsplash.com/photo-1562114808-b4b33cf60f4f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW9ndXJ0fGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1564149503905-7fef56abc1f2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8eW9ndXJ0fGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1641196936589-7df4db18de66?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHlvZ3VydHxlbnwwfHwwfHx8Mg%3D%3D"
         ],
         "price": 1.29,
         "unit": "cup",
@@ -437,9 +437,9 @@
         "name": "Butter",
         "description": "Unsalted butter from grass-fed cows.",
         "images": [
-          "https://example.com/images/butter.jpg",
-          "https://example.com/images/butter_stick.jpg",
-          "https://example.com/images/butter_spread.jpg"
+          "https://images.unsplash.com/photo-1589985269102-ff38adf6f00d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnV0dGVyfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1662988564746-4fc159c87f2d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnV0dGVyfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1590912710024-6d51a6771abd?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YnV0dGVyfGVufDB8fDB8fHwy"
         ],
         "price": 2.79,
         "unit": "stick",
@@ -455,9 +455,9 @@
         "name": "Cream",
         "description": "Heavy whipping cream, ultra-pasteurized.",
         "images": [
-          "https://example.com/images/cream.jpg",
-          "https://example.com/images/cream_pour.jpg",
-          "https://example.com/images/cream_carton.jpg"
+          "https://images.unsplash.com/photo-1586558284713-ba390c1a042a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3JlYW0lMjBtaWxrfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1589985270319-40629f6ae936?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpcHBlZCUyMGNyZWFtfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1583130879758-db8ac95a9b68?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2hpcHBlZCUyMGNyZWFtfGVufDB8fDB8fHwy"
         ],
         "price": 1.99,
         "unit": "pint",
@@ -473,9 +473,9 @@
         "name": "Ice Cream",
         "description": "Vanilla bean ice cream, slow churned.",
         "images": [
-          "https://example.com/images/icecream.jpg",
-          "https://example.com/images/icecream_scoop.jpg",
-          "https://example.com/images/icecream_pint.jpg"
+          "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SWNlJTIwQ3JlYW18ZW58MHx8MHx8fDA%3D",
+          "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SWNlJTIwQ3JlYW18ZW58MHx8MHx8fDA%3D",
+          "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SWNlJTIwQ3JlYW18ZW58MHx8MHx8fDA%3D"
         ],
         "price": 3.99,
         "unit": "pint",
@@ -491,9 +491,9 @@
         "name": "Cottage Cheese",
         "description": "Small-curd, high-protein cottage cheese.",
         "images": [
-          "https://example.com/images/cottage_cheese.jpg",
-          "https://example.com/images/cottage_cheese_bowl.jpg",
-          "https://example.com/images/cottage_cheese_cup.jpg"
+          "https://images.unsplash.com/photo-1559561853-08451507cbe7?q=80&w=957&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1570917333569-eb1ad88fd4c1?q=80&w=1049&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1632200751394-832eb7d4ce5d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "price": 2.49,
         "unit": "cup",
@@ -509,9 +509,9 @@
         "name": "Sour Cream",
         "description": "Rich & tangy all-natural sour cream.",
         "images": [
-          "https://example.com/images/sour_cream.jpg",
-          "https://example.com/images/sour_cream_spoon.jpg",
-          "https://example.com/images/sour_cream_tub.jpg"
+          "https://images.unsplash.com/photo-1637194502327-c99c94943680?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U291ciUyMENyZWFtJTIwd2hpcHBlZHxlbnwwfHwwfHx8MA%3D%3D",
+          "https://images.unsplash.com/photo-1686998423980-ab223d183055?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U291ciUyMENyZWFtJTIwd2hpcHBlZHxlbnwwfHwwfHx8MA%3D%3D",
+          "https://images.unsplash.com/photo-1650419741906-1cdead9c9b4f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U291ciUyMENyZWFtJTIwd2hpcHBlZHxlbnwwfHwwfHx8MA%3D%3D"
         ],
         "price": 1.69,
         "unit": "tub",
@@ -529,9 +529,9 @@
         "name": "Bread",
         "description": "Whole-wheat loaf, baked fresh daily.",
         "images": [
-          "https://example.com/images/bread.jpg",
-          "https://example.com/images/bread_sliced.jpg",
-          "https://example.com/images/bread_loaf.jpg"
+          "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnJlYWR8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1533782654613-826a072dd6f3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnJlYWR8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1598373182133-52452f7691ef?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnJlYWR8ZW58MHx8MHx8fDI%3D"
         ],
         "price": 2.49,
         "unit": "loaf",
@@ -547,9 +547,9 @@
         "name": "Croissant",
         "description": "Flaky, butter-rich French pastry.",
         "images": [
-          "https://example.com/images/croissant.jpg",
-          "https://example.com/images/croissant_stack.jpg",
-          "https://example.com/images/croissant_cut.jpg"
+          "https://images.unsplash.com/photo-1691480162735-9b91238080f6?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1591521771366-061035830132?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1619540158662-bb74607515f2?q=80&w=1049&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "price": 2.19,
         "unit": "each",
@@ -565,9 +565,9 @@
         "name": "Muffin",
         "description": "Blueberry muffin with real berries.",
         "images": [
-          "https://example.com/images/muffin.jpg",
-          "https://example.com/images/muffin_half.jpg",
-          "https://example.com/images/muffin_stack.jpg"
+          "https://images.unsplash.com/photo-1578632398050-cccbc1461ab9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVmZmlufGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1636118128238-1e68a4e4b6c8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bXVmZmlufGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1587022058028-c084ee8dc31f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVmZmlufGVufDB8fDB8fHwy"
         ],
         "price": 1.99,
         "unit": "each",
@@ -583,9 +583,9 @@
         "name": "Bagel",
         "description": "Chewy NY-style plain bagel.",
         "images": [
-          "https://example.com/images/bagel.jpg",
-          "https://example.com/images/bagel_stack.jpg",
-          "https://example.com/images/bagel_cut.jpg"
+          "https://images.unsplash.com/photo-1627308595260-6fad84c40413?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmFnZWx8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1518562923427-19e694fbd8e9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QmFnZWx8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1592767049184-0fda840ae4e7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QmFnZWx8ZW58MHx8MHx8fDI%3D"
         ],
         "price": 1.49,
         "unit": "each",
@@ -601,9 +601,9 @@
         "name": "Donut",
         "description": "Light yeast-raised donut with glaze.",
         "images": [
-          "https://example.com/images/donut.jpg",
-          "https://example.com/images/donut_stack.jpg",
-          "https://example.com/images/donut_close.jpg"
+          "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RG9udXR8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1527515545081-5db817172677?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RG9udXR8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1464347477106-7648bc26261b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RG9udXR8ZW58MHx8MHx8fDI%3D"
         ],
         "price": 1.29,
         "unit": "each",
@@ -619,9 +619,9 @@
         "name": "Baguette",
         "description": "Crusty French baguette, stone baked.",
         "images": [
-          "https://example.com/images/baguette.jpg",
-          "https://example.com/images/baguette_slice.jpg",
-          "https://example.com/images/baguette_loaf.jpg"
+          "https://images.unsplash.com/photo-1691862469586-9c7c183b27b7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmFndWV0dGV8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1568471173242-461f0a730452?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmFndWV0dGV8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1667637708579-0b1da755a638?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QmFndWV0dGV8ZW58MHx8MHx8fDI%3D"
         ],
         "price": 2.79,
         "unit": "loaf",
@@ -637,9 +637,9 @@
         "name": "Cake",
         "description": "Rich chocolate fudge cake, 8-inch.",
         "images": [
-          "https://example.com/images/cake.jpg",
-          "https://example.com/images/cake_slice.jpg",
-          "https://example.com/images/cake_full.jpg"
+          "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=1050&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+          "https://images.unsplash.com/photo-1518047601542-79f18c655718?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8"
         ],
         "price": 9.99,
         "unit": "cake",
@@ -655,9 +655,9 @@
         "name": "Pie",
         "description": "Classic apple pie with buttery crust.",
         "images": [
-          "https://example.com/images/pie.jpg",
-          "https://example.com/images/pie_slice.jpg",
-          "https://example.com/images/pie_whole.jpg"
+          "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGllfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1587248720327-8eb72564be1e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGllfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGllfGVufDB8fDB8fHwy"
         ],
         "price": 7.49,
         "unit": "pie",
@@ -675,9 +675,9 @@
         "name": "Chicken Breast",
         "description": "Lean, boneless, skinless chicken breast.",
         "images": [
-          "https://example.com/images/chicken_breast.jpg",
-          "https://example.com/images/chicken_breast_pack.jpg",
-          "https://example.com/images/chicken_breast_cooked.jpg"
+          "https://images.unsplash.com/photo-1633096013004-e2cb4023b560?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpY2tlbiUyMEJyZWFzdHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2hpY2tlbiUyMEJyZWFzdHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1680169088018-99fb63803c54?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fENoaWNrZW4lMjBCcmVhc3R8ZW58MHx8MHx8fDI%3D"
         ],
         "price": 5.99,
         "unit": "lb",
@@ -689,31 +689,13 @@
         ]
       },
       {
-        "id": 2,
-        "name": "Beef Steak",
-        "description": "USDA Choice ribeye, well-marbled.",
-        "images": [
-          "https://example.com/images/beef_steak.jpg",
-          "https://example.com/images/beef_steak_raw.jpg",
-          "https://example.com/images/beef_steak_cooked.jpg"
-        ],
-        "price": 9.99,
-        "unit": "12 oz",
-        "quantity": 1,
-        "features": [
-          "Grain-fed",
-          "Rich flavor",
-          "Tender cut"
-        ]
-      },
-      {
         "id": 3,
         "name": "Bacon",
         "description": "Applewood-smoked thick-cut bacon.",
         "images": [
-          "https://example.com/images/bacon.jpg",
-          "https://example.com/images/bacon_pack.jpg",
-          "https://example.com/images/bacon_cooked.jpg"
+          "https://images.unsplash.com/photo-1694983361629-0363ab0d1b49?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1706341841211-1e9773c3a6f7?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1694983361411-73e7b65d58fd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8"
         ],
         "price": 4.49,
         "unit": "pack",
@@ -729,9 +711,9 @@
         "name": "Pork Chop",
         "description": "Center-cut bone-in pork chop.",
         "images": [
-          "https://example.com/images/pork_chop.jpg",
-          "https://example.com/images/pork_chop_raw.jpg",
-          "https://example.com/images/pork_chop_cooked.jpg"
+          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UG9yayUyMENob3B8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1612871689527-2a6145cc9e86?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UG9yayUyMENob3B8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1612895572325-f029a8494bb5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8UG9yayUyMENob3B8ZW58MHx8MHx8fDI%3D"
         ],
         "price": 5.49,
         "unit": "lb",
@@ -747,9 +729,9 @@
         "name": "Turkey",
         "description": "93% lean ground turkey.",
         "images": [
-          "https://example.com/images/turkey.jpg",
-          "https://example.com/images/turkey_pack.jpg",
-          "https://example.com/images/turkey_cooked.jpg"
+          "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VHVya2V5JTIwbWVhdHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1672055905697-a76628065802?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VHVya2V5JTIwbWVhdHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1672787380735-2fb682c30b18?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8VHVya2V5JTIwbWVhdHxlbnwwfHwwfHx8Mg%3D%3D"
         ],
         "price": 6.99,
         "unit": "lb",
@@ -765,9 +747,9 @@
         "name": "Lamb",
         "description": "Grass-fed loin lamb chops.",
         "images": [
-          "https://example.com/images/lamb.jpg",
-          "https://example.com/images/lamb_raw.jpg",
-          "https://example.com/images/lamb_cooked.jpg"
+          "https://images.unsplash.com/photo-1448907503123-67254d59ca4f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGFtYiUyMG1lYXR8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1630334337820-84afb05acf3a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFtYiUyMG1lYXR8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TGFtYiUyMG1lYXR8ZW58MHx8MHx8fDI%3D"
         ],
         "price": 8.99,
         "unit": "lb",
@@ -783,9 +765,9 @@
         "name": "Ham",
         "description": "Honey-glazed boneless smoked ham.",
         "images": [
-          "https://example.com/images/ham.jpg",
-          "https://example.com/images/ham_slice.jpg",
-          "https://example.com/images/ham_pack.jpg"
+          "https://images.unsplash.com/photo-1672055826545-d7dcc36cc223?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SGFtJTIyJTIwbWVhdHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1561374895-884ab932e966?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1572788493895-3a9a445fe36e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D"
         ],
         "price": 4.99,
         "unit": "lb",
@@ -801,9 +783,9 @@
         "name": "Sausage",
         "description": "Mild Italian pork sausages.",
         "images": [
-          "https://example.com/images/sausage.jpg",
-          "https://example.com/images/sausage_pack.jpg",
-          "https://example.com/images/sausage_cooked.jpg"
+          "https://images.unsplash.com/photo-1569248792801-ea78b4b638aa?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U2F1c2FnZSUyMG1lYXR8ZW58MHx8MHx8fDA%3D",
+          "https://images.unsplash.com/photo-1620487571369-88160295b78c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U2F1c2FnZSUyMG1lYXR8ZW58MHx8MHx8fDI%3D",
+          "https://images.unsplash.com/photo-1691480241974-92481cef09ff?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFNhdXNhZ2UlMjBtZWF0fGVufDB8fDB8fHwy"
         ],
         "price": 3.99,
         "unit": "pack",
