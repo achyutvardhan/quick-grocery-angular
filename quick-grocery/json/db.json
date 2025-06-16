@@ -62,7 +62,7 @@
       "price": 0.99,
       "description": "Crisp, juicy, and rich in fiber.",
       "image": "https://example.com/images/apple.jpg",
-      "quantity": 13,
+      "quantity": 10,
       "unit": "each"
     },
     {
