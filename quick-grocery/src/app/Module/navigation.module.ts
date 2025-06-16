@@ -9,6 +9,7 @@ import { TopCategoryComponent } from '../top-category/top-category.component';
 import { OurProductComponent } from '../Pages/our-product/our-product.component';
 import { AddToCartComponent } from '../Pages/add-to-cart/add-to-cart.component';
 import { ViewItemPageComponent } from '../Pages/view-item-page/view-item-page.component';
+import { LoginComponent } from '../Pages/login/login.component';
 
 export const appRoutes: Routes = [
   { path: "", component: HomeComponent },
@@ -20,6 +21,7 @@ export const appRoutes: Routes = [
   {path: 'add-to-cart', component:AddToCartComponent},
   {path: 'view-item/:category/:name', component:ViewItemPageComponent },
   {path: 'ourProduct/:category', component: OurProductComponent},
+  {path: 'login', component: LoginComponent }
 ];
 
 @NgModule({

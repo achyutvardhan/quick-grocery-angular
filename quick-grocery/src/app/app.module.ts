@@ -17,6 +17,7 @@ import { ViewItemPageComponent } from './Pages/view-item-page/view-item-page.com
 import { ProfileModule } from './Module/profile.module';
 import { YouMayAlsoLikeComponent } from './you-may-also-like/you-may-also-like.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,7 @@ import { YouMayAlsoLikeComponent } from './you-may-also-like/you-may-also-like.c
     AppPromotionSectionComponent,
     HomeComponent,
     ViewItemPageComponent,
-    YouMayAlsoLikeComponent
+    YouMayAlsoLikeComponent,
   ],
   imports: [
     BrowserModule,

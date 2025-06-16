@@ -74,7 +74,7 @@ export class SpecialOfferComponent {
       },
       {
         image: '../../assets/broccoli-florets.webp',
-        name: ' Broccoli',
+        name: 'Broccoli',
         price: 1.29,
         category: 'Vegetables',
       },

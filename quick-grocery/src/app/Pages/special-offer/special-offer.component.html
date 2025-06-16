@@ -29,7 +29,7 @@
       <div class="product-grid">
         <div class="product-card" *ngFor="let item of product1">
           <div class="product-image2">
-            <app-weekly-deals [itemsObj3]="item" />
+            <app-weekly-deals [itemsObj3]="item" [routerLink]="['/view-item',item.category,item.name]" />
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@
       <div class="product-grid">
         <div class="product-card" *ngFor="let item of product2">
           <div class="product-image2">
-            <app-weekly-deals [itemsObj3]="item" />
+            <app-weekly-deals [itemsObj3]="item" [routerLink]="['/view-item',item.category,item.name]" />
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
       <div class="product-grid">
         <div class="product-card" *ngFor="let item of product3">
           <div class="product-image2">
-            <app-weekly-deals [itemsObj3]="item" />
+            <app-weekly-deals [itemsObj3]="item"  [routerLink]="['/view-item',item.category,item.name]" />
           </div>
         </div>
       </div>

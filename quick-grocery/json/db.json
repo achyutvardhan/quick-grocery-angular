@@ -57,21 +57,12 @@
   ],
   "cartItem": [
     {
-      "id": "f4f3",
-      "name": "Banana",
-      "price": 0.59,
-      "description": "Naturally sweet and potassium-rich.",
-      "image": "https://images.freeimages.com/images/large-previews/360/banana-1-1330048.jpg?fmt=webp&h=350",
-      "quantity": 20,
-      "unit": "each"
-    },
-    {
       "id": "dfde",
       "name": "Apple",
       "price": 0.99,
       "description": "Crisp, juicy, and rich in fiber.",
       "image": "https://cdn.stocksnap.io/img-thumbs/960w/fresh-apple_KNCHMWUOR0.jpg",
-      "quantity": 1,
+      "quantity": 9,
       "unit": "each"
     },
     {
@@ -80,8 +71,17 @@
       "price": 2.99,
       "description": "Sweet berries packed with antioxidants.",
       "image": "https://burst.shopifycdn.com/photos/ripe-red-strawberries-in-a-white-bowl.jpg?width=373&format=pjpg&exif=0&iptc=0",
-      "quantity": 1,
+      "quantity": 2,
       "unit": "1 lb"
+    },
+    {
+      "id": "6362",
+      "name": "Broccoli",
+      "price": 1.29,
+      "description": "Tender green florets, vitamin K rich.",
+      "image": "https://example.com/images/broccoli.jpg",
+      "quantity": 4,
+      "unit": "each"
     }
   ],
   "product": {
