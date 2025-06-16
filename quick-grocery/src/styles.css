@@ -1420,3 +1420,25 @@ nav ul li a:hover .fa-shopping-cart {
     border-radius: 8px;
     display: inline-block;
 }
+
+
+.auth-icon-link {
+  display: flex;
+  align-items: center;
+  color: #555; /* Default text color */
+  padding: 5px 10px;
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.auth-icon-link i {
+  margin-right: 5px; /* Space between icon and text */
+  font-size: 1.2rem; /* Adjust icon size as needed */
+}
+
+.auth-icon-link:hover {
+  color: #4caf50; /* Green color on hover */
+}
+
+.auth-icon-link.active {
+  color: #4caf50; /* Green color when active */
+}

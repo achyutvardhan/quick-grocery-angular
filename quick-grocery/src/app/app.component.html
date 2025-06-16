@@ -6,24 +6,31 @@
     <nav class="main-nav">
       <ul>
         <li><a [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
-        <li><a [routerLink]="['ourProduct']" routerLinkActive="active" >Products</a></li>
+        <li><a [routerLink]="['ourProduct']" routerLinkActive="active">Products</a></li>
         <li><a [routerLink]="['/specialOffer']" routerLinkActive="active">Special Offers</a></li>
         <li><a [routerLink]="['/blog']" routerLinkActive="active">Blog</a></li>
         <li><a [routerLink]="['/contact']" routerLinkActive="active">Contact</a></li>
         <li>
           <a [routerLink]="['/add-to-cart']" routerLinkActive="active">
-        <i class="fas fa-shopping-cart"></i>
-             <span class="cart-count">{{totalQuantity}}</span>
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">{{totalQuantity}}</span>
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/login']" routerLinkActive="active" class="auth-icon-link">
+            <i class="fas fa-user"></i>
+            <span>Login</span>
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/signup']" routerLinkActive="active" class="auth-icon-link">
+            <i class="fas fa-sign-in-alt"></i>
+            <span>Sign Up</span>
           </a>
         </li>
       </ul>
     </nav>
-     <div class="search-bar">
-        <form>
-          <input type="text" placeholder="Search for products...">
-          <button type="submit" class="search-btn">Search</button>
-        </form>
-      </div>
+
   </div>
 </header>
 <router-outlet></router-outlet>
